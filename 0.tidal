@@ -16,12 +16,13 @@ d2
 d3
 	$ jux rev
 	$ chop "<32 64 16>"
-	$ s "[bd]*2"
+	$ s "[bd:4 bd:3]*2"
 	# gain "0.95"
 
 d4
 	$ chop 16
 	$ s "[ht]"
+	-- # gain (sine + 1.0)
 
 d5
 	$ jux (rev)
@@ -36,3 +37,10 @@ d5
 	# octave 4
 	# sustain 0.5
 	# legato 2
+
+
+d6
+	-- $ jux (rev . (|*| speed 2)) $ every 3 (rev . chop 8)
+	$ s "cp:1 cp:2"
+	-- $ s "cp:1 cp:2(3,8, <0 2 3>)"
+	-- # gain (sine + 0.8)
