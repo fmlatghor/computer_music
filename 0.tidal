@@ -1,0 +1,38 @@
+-- Coogan, Leonard : Untitled
+-- First "song" with Tidal/SuperCollider!
+
+-- First pattern, respectively
+
+d1 $ n (slow 2 $ fmap (*7) $ run 8) 
+	# s "808"
+	# decay "[1 0.2]/4"
+	# voice "[0.5 0]/8"
+	# speed (sine + 0.8)
+
+d2
+	$ chop "<32 128 32 16>"
+	$ s "[~ hh]*8"
+
+d3
+	$ jux rev
+	$ chop "<32 64 16>"
+	$ s "[bd]*2"
+	# gain "0.95"
+
+d4
+	$ chop 16
+	$ s "[ht]"
+
+d5
+	$ jux (rev)
+	$ chunk 4 (fast 2 . (|- n 12))
+	$ off 0.25 (|+ 7)
+	$ struct (iter 8 "f(5,8)")
+	$ n (scale "hexPhyrgian" "0 .. 5")
+	# s "eutow"
+	# gain 0.8
+	# rate 9
+	# speed 2
+	# octave 4
+	# sustain 0.5
+	# legato 2
