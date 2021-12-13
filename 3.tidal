@@ -1,0 +1,18 @@
+-- fm'latghor, Prayer for Jackson
+d1
+	$chop "4"
+	$n "c1 c2 d3 e5 c3 a2"
+	#s "midi"
+
+d2
+	$chop "2"
+	$n "[c7 d7 e8 e5]"
+	#s "midi"
+
+d3
+	$n "c'sus g'sus e'sus/2"
+	#s "midi"
+
+d4
+	$n "{c0 c1}%2"
+	#s "midi"
