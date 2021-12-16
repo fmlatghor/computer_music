@@ -33,3 +33,8 @@ d3
 d3
 	$n "e'min5 a2 d5 a4"
 	#s "midi"
+
+d4
+	$chop "<2 4 8>"
+	$n "[a6 a7]*2"
+	#s "midi"
