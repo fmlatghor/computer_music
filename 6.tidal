@@ -1,0 +1,51 @@
+-- Lucy v2, fm'latghor
+
+d1
+	-- $jux rev
+	$n "e3 d3 ~ c4  ~ c6'sus"
+	#s "pluck"
+
+
+-- First part
+d2
+	$n "g1'min g2'maj5 c1'min"
+	#s "perc"
+	-- #octave "8"
+
+-- Second part
+d2
+	$chop "2"
+	$n "d1'min g2'maj5 a1'min"
+	#s "hh bd ~"
+	#gain "0.9"
+	-- #octave "8 9 10"
+
+
+-- First part
+d3
+	$n "a5 a2"
+	#s "pluck"
+
+-- Second part ahh so good
+d3
+	$n "a5 a2 a5 a4"
+	#s "pluck"
+
+d3
+	$n "e'min5 a2 d5 a4"
+	#s "tok"
+	#gain "1.5"
+
+d4
+	$chop "<2 4 8>"
+	$n "[a6 a7]*2"
+	#s "glitch2"
+	#gain "1.5"
+
+
+d5
+	$s "dr2" <| n (run 6)
+
+d5
+	-- $n "3 2 1 2 3"
+	-- #s "dr2"

@@ -1,0 +1,8 @@
+-- four on the floor
+d1 $stack [
+	s "[909!4 ~ bd]*2",
+	s "{~ clak}%2",
+	s "dr55*32 dr55*8 dr55*4"
+]
+
+d2 $s "cp:1"
