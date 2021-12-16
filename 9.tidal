@@ -1,4 +1,5 @@
 -- Aleph, fm'latghor
+-- tämä on hyvä.....
 
 d1
 	$chop "<2 4 8>"
@@ -12,9 +13,17 @@ d3
 	#octave 3
 
 d3
-	$n "[a'min]/4"
+	$n "[a'min]*2"
 	#s "tink"
 	#octave 3
+	
+xfade "tonix"
+	$n "[a'min d'min e'min]*18" -- 16 tai 18
+	#s "newnotes"
+	#octave "3 4"
+	#gain 0.8
+
+xfade "tonix" $s "hush"
 
 d3
 	$jux (rev)
@@ -35,6 +44,12 @@ d2 $stack [
 	s "dr2:9*2",
 	s "dr2:3",
 	s "clak"
+]
+
+d2 $stack [
+	s "dr2:9*2",
+	s "dr2:3",
+	s "clak*8 clak*16 clak*4"
 ]
 
 d2 $stack [
