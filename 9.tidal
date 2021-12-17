@@ -16,9 +16,16 @@ d3
 	$n "[a'min]*2"
 	#s "tink"
 	#octave 3
+
+d3
+	$n "[e9'min e'min]*6"
+	#s "tink"
+	#octave 3
+	#gain (sine + 0.5)
+	-- #gain 1.2
 	
 xfade "tonix"
-	$n "[a'min d'min e'min]*18" -- 16 tai 18
+	$n "[a'min d'min e'min]*18" -- 16 vai 18
 	#s "newnotes"
 	#octave "3 4"
 	#gain 0.8
@@ -43,7 +50,7 @@ d4
 d2 $stack [
 	s "dr2:9*2",
 	s "dr2:3",
-	s "clak"
+	s "clak*2"
 ]
 
 d2 $stack [

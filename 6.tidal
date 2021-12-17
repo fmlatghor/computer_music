@@ -17,7 +17,7 @@ d2
 	$chop "2"
 	$n "d1'min g2'maj5 a1'min"
 	#s "hh bd ~"
-	#gain "0.9"
+	-- #gain "0.9"
 	-- #octave "8 9 10"
 
 
@@ -38,14 +38,18 @@ d3
 
 d4
 	$chop "<2 4 8>"
-	$n "[a6 a7]*2"
-	#s "glitch2"
-	#gain "1.5"
+	$n "[a6 a7]"
+	#s "glitch2*1.5"
+	#gain "1.2"
 
 
 d5
 	$s "dr2" <| n (run 6)
 
-d5
-	-- $n "3 2 1 2 3"
-	-- #s "dr2"
+d5 $stack [
+	n "3*2",
+	n "0*3",
+	n "4",
+	n "~*2 1"
+]
+	#s "dr2"
