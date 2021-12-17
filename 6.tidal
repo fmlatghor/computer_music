@@ -36,12 +36,6 @@ d3
 	#s "tok"
 	#gain "1.5"
 
-d4
-	$chop "<2 4 8>"
-	$n "[a6 a7]"
-	#s "glitch2*1.5"
-	#gain "1.2"
-
 
 d5
 	$s "dr2" <| n (run 6)

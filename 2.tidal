@@ -1,6 +1,6 @@
 -- fm'latghor : Glass
 
-d1 $ chop 24 $ n "[0 2 5 7]" # s "midi"
+d1 $ n "[0 2 5 7]" # s "midi"
 
 d2 $ n "[c8]*256" # s "midi"
 
@@ -12,3 +12,8 @@ d4 $n "[g1([c3 c4]/2,8) ~ g2 ~ g3 g6]" #s "midi" # speed "0.2"
 d5 $n "[g1 g3]" #s "midi"
 
 d6 $n "[d2 d3]" #s "midi"
+
+
+d7 $stack [
+	s "bd dr2:9:9*4"
+]
