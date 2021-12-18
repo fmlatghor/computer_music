@@ -16,5 +16,5 @@ d3
 d2 $stack [
 	s "dr2:9:9*6",
 	s "clak",
-	s "~ 808sd*2] sd"
+	s "~ 808sd*2 sd"
 ]
