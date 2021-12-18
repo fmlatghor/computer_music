@@ -1,7 +1,10 @@
+-- Silf, fm'latghor
+-- Meant to be played on KORG minilogue
+
 -- Harm
 d1 $stack [
-	n "[a5 c6 e4 c4]"
-	-- ,n "d6'min e'min a'min"
+	 n "[a5 c6 e4 c4]"
+	--n "d6'min e'min a'min"
 ]
 	#s "midi"
 
@@ -9,12 +12,12 @@ d1 $stack [
 -- Riff
 d3 $stack [
 	n "[d5 g6 c5]*4"
-	-- ,n "[d6 g7 c6]*4"
+	,n "[d6 g7 c6]*4"
 ]
 	#s "midi"
 
 d4 $stack [
-	n "[g3 d3 f3 g4]/2"
+	n "[g3 d3 f3 g4]/4"
 ]
 	#s "midi"
 
