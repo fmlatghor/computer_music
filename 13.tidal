@@ -1,0 +1,12 @@
+d1
+	$n "gs g gf cs"
+	#s "midi"
+
+d2
+	$chop "15"
+	$ stack [
+		s "dr2*2 ~",
+		s "dr2:4",
+		s "dr2:9*2",
+		s "~ sd*4 sd*8"
+	]

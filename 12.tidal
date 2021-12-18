@@ -1,0 +1,12 @@
+d1
+	$n "d4 d5 g4 d5 a4 d5 a5"
+	#s "midi"
+
+d2
+	$n "g5 ~ a5 d6"
+	#s "midi"
+
+d3
+	$chop "<4 8 16>"
+	$n "a5*2"
+	#s "midi"
