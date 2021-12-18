@@ -1,20 +1,33 @@
 -- Harm
 d1 $stack [
-	n "[a5 c6 e4 c4]",
-	n "d6'min"
+	n "[a5 c6 e4 c4]"
+	-- ,n "d6'min e'min a'min"
 ]
 	#s "midi"
 
 
 -- Riff
-d3
-	$n "[d5 g6 c5]*2"
+d3 $stack [
+	n "[d5 g6 c5]*4"
+	-- ,n "[d6 g7 c6]*4"
+]
 	#s "midi"
+
+d4 $stack [
+	n "[g3 d3 f3 g4]/2"
+]
+	#s "midi"
+
 
 
 -- Drums
 d2 $stack [
 	s "dr2:9:9*6",
 	s "clak",
-	s "~ 808sd*2 sd"
+	s "~ 808sd*2 click"
+]
+	-- #gain "0.8"
+
+d2 $stack [
+	s "bend" <| n (run 2)
 ]
