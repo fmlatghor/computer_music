@@ -1,0 +1,20 @@
+-- Harm
+d1 $stack [
+	n "[a5 c6 e4 c4]",
+	n "d6'min"
+]
+	#s "midi"
+
+
+-- Riff
+d3
+	$n "[d5 g6 c5]*2"
+	#s "midi"
+
+
+-- Drums
+d2 $stack [
+	s "dr2:9:9*6",
+	s "clak",
+	s "~ 808sd*2] sd"
+]
