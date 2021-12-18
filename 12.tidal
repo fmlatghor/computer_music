@@ -1,4 +1,5 @@
 d1
+	$chop "<4 8 2>"
 	$n "d4 d5 g4 d5 a4 d5 a5"
 	#s "midi"
 
@@ -10,3 +11,11 @@ d3
 	$chop "<4 8 16>"
 	$n "a5*2"
 	#s "midi"
+
+
+-- Drums
+d4 $stack [
+	s "click clak*32"
+	,s "~*2 bd ~ bd*2"
+]
+	#gain "0.95"
