@@ -10,7 +10,7 @@ d1
 d3
 	$n "c1 c2 c4 c0"
 	#s "tink"
-	-#octave "2 3"
+	-- #octave "2 3"
 	-- #gain "1.3"
 
 d3
