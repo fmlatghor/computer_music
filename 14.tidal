@@ -1,4 +1,8 @@
-d1 $n "e a ~ d g ~"
+-- Use PCP preset (006)
+
+setcps (125/60/4)
+
+d1 $n "e a ~ d gs ~"
 	#s "midi"
 
 d3 $n "[d4 ~g3 ~ a3 c4*8]"
@@ -8,6 +12,13 @@ d3 $n "[d4 ~g3 ~ a3 c4*8]"
 d2 $stack [
 	n "3*2 ~ 3"
 	,n "0*23 0*15 0*8"
+	--,n "8*2"
 ]
 	#s "808bd"
 	-- #gain "2.3"
+
+d4 $stack [
+	s "bd*4"
+	,s "[sd ~]*2"
+	,s "~hc*3"
+] #gain "1.3"

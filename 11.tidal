@@ -29,7 +29,7 @@ d2 $stack [
 	s "clak",
 	s "~ 808sd*2 click"
 ]
-	-- #gain "0.8"
+	#gain "1.2"
 
 d2 $stack [
 	s "bend" <| n (run 2)
