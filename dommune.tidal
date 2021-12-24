@@ -1,0 +1,9 @@
+-- Dommune, fm'latghor
+
+d1
+	$slow 2
+	$n "{cs8*80 25*32 3*74 4*16 2*8}%5"
+	|*| speed "[-1.0, 1.0]"
+	#s "midi"
+	#octave 6
+	#sus 0.2
