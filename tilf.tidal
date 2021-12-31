@@ -1,0 +1,42 @@
+-- Silf, fm'latghor
+-- Meant to be played on KORG minilogue
+
+-- Harm
+d1 $stack [
+	"[a5]"
+	 --,n "d6'min e'min a'min"
+]
+	#s "arp:1"
+
+
+-- Riff
+d3 $chop 64
+	$stack [
+	n "[d5 a8 c5]*4"
+	--,n "[d6 g7 c6]*4"
+]
+	#s "moog"
+	#octave 5
+	#lpf "<800 1600*2 8000>/2"
+	-- #hpf "200 2000"
+	#gain 1.2
+
+d4 $stack [
+	n "[g3 d3 f3 g4]/4"
+]
+	#s "pad"
+
+
+
+-- Drums
+d2 $stack [
+	s "dr2:9:9*6",
+	s "clak",
+	s "~ 808sd*2 click"
+]
+	#gain "1.2"
+	#legato "2"
+
+d2 $stack [
+	s "bend" <| n (run 2)
+]
