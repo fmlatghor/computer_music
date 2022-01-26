@@ -1,0 +1,11 @@
+d1 $chop "128"
+-- $n "[3 4 5 36 14 2]"
+$stack [
+	n "c3 c4 c8"
+	,n "~ a'min"
+]
+	#s "midi"
+
+
+d2 $rev $n "d'min3 c8 c4 c9"
+#s "midi"

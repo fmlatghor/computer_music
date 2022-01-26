@@ -1,0 +1,13 @@
+-- kv'yn
+d1
+$stack [
+	n "c7 d3 c4 d"
+	,n "e a d"
+]
+#s "midi"
+
+d2 $stack [
+	n "g a d e"
+	,n "[c g e]"
+]
+#s "midi"
