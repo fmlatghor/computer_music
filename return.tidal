@@ -2,4 +2,14 @@
 
 setcps (120/60/3)
 
-d1 $n "c5 d5 ~ g5 a5 ~c4" #s "midi" #octave "3 4*2 5"
+d1 $stack [
+ n "~ ~ ~ g5 a5 ~c4",
+ n "d4 a5 ~~g6*3"
+ ,n "c8 g8 ~ e8"
+ ,n "c4 e4 d4"
+]
+ #s "midi" #octave "3 4*2 5"
+
+ d2
+$n "[d3 gs3 as4]*4"
+#s "midi"

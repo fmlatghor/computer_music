@@ -1,0 +1,15 @@
+d1 $stack [
+n "c8 a'min c7~ c5"
+,n "d'min c'min c4*8 es3*32"
+]
+#s "midi"
+
+d2 $n "[[f e f]/0.5]*2"
+#s "midi"
+
+d3 $stack [
+s "bd*8 bd*30"
+,s "808oh hh*8"
+--,s "sd ~~ sd*2048~"
+,s "sd ~ ~ sd~hh"
+]
