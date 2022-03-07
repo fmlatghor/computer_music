@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project creator="LMMS" creatorversion="1.3.0-alpha.1.104+g4589004e6" version="20" type="instrumenttracksettings">
+  <head/>
+  <instrumenttracksettings name="BitInvader" mutedBeforeSolo="0" solo="0" muted="0" type="0">
+    <instrumenttrack basenote="69" pitch="0" fxch="0" usemasterpitch="1" vol="68" enablecc="0" pitchrange="1" lastkey="127" pan="0" firstkey="0">
+      <midicontrollers cc106="0" cc6="0" cc58="0" cc96="0" cc111="0" cc47="0" cc56="0" cc8="0" cc102="0" cc82="0" cc90="0" cc91="0" cc13="0" cc88="0" cc61="0" cc20="0" cc43="0" cc118="0" cc122="0" cc2="0" cc109="0" cc83="0" cc110="0" cc125="0" cc53="0" cc38="0" cc97="0" cc40="0" cc93="0" cc116="0" cc55="0" cc94="0" cc60="0" cc69="0" cc87="0" cc123="0" cc30="0" cc33="0" cc39="0" cc99="0" cc117="0" cc98="0" cc101="0" cc67="0" cc103="0" cc127="0" cc41="0" cc10="0" cc68="0" cc71="0" cc14="0" cc95="0" cc121="0" cc63="0" cc44="0" cc78="0" cc57="0" cc36="0" cc89="0" cc48="0" cc112="0" cc3="0" cc113="0" cc76="0" cc73="0" cc49="0" cc51="0" cc9="0" cc21="0" cc46="0" cc17="0" cc80="0" cc0="0" cc52="0" cc108="0" cc5="0" cc124="0" cc23="0" cc4="0" cc15="0" cc29="0" cc120="0" cc7="0" cc66="0" cc24="0" cc126="0" cc50="0" cc115="0" cc12="0" cc65="0" cc26="0" cc35="0" cc54="0" cc11="0" cc75="0" cc45="0" cc70="0" cc81="0" cc28="0" cc42="0" cc74="0" cc86="0" cc100="0" cc19="0" cc77="0" cc25="0" cc85="0" cc72="0" cc31="0" cc107="0" cc32="0" cc114="0" cc62="0" cc1="0" cc34="0" cc84="0" cc92="0" cc59="0" cc37="0" cc22="0" cc105="0" cc104="0" cc18="0" cc119="0" cc16="0" cc27="0" cc64="0" cc79="0"/>
+      <instrument name="bitinvader">
+        <bitinvader interpolation="0" version="0.1" normalize="0" sampleLength="49" sampleShape="AACAv6Rwfb9I4Xq/7FF4v4/Cdb8zM3O/16Nwv3sUbr8fhWu/wvVov2ZmZr8K12O/rkdhv1K4Xr/2KFy/mplZvz4KV7/helS/hetRvylcT7/NzEy/cT1KvxSuR7+4HkW/XI9CvwAAQL+kcD2/SOE6v+xROL+QwjW/MzMzv9ejML97FC6/HoUrv8L1KL9mZia/Ctcjv65HIb9SuB6/9igcv5qZGb8+Che/4noUv4XrEb8pXA+/zcwMv3A9Cr8Urge/uB4Fv1yPAr8AAAC/SOH6vpDC9b7Yo/C+HoXrvmZm5r6uR+G+9ijcvj4K176G69G+zMzMvhSux75cj8K+pHC9vuxRuL40M7O+ehSuvsL1qL4K16O+UrievpqZmb7iepS+KFyPvnA9ir64HoW+AACAvpDCdb4ghWu+sEdhvjwKV77MzEy+XI9CvuxROL58FC6+DNcjvpiZGb4oXA++uB4FvpDC9b2wR+G90MzMvehRuL0I16O9KFyPvZDCdb3QzEy9ENcjvYDC9bwA16O8ANcjvAAAAAAA1yM8ANejPIDC9TwA1yM9wMxMPYDCdT0wXI89ENejPfBRuD3QzMw9sEfhPZDC9T24HgU+KFwPPpiZGT4I1yM+eBQuPuhROD5gj0I+0MxMPkAKVz6wR2E+IIVrPpDCdT4AAIA+uB6FPnA9ij4oXI8+4HqUPpiZmT5QuJ4+DNejPsT1qD58FK4+NDOzPuxRuD6kcL0+XI/CPhSuxz7MzMw+hOvRPjwK1z70KNw+sEfhPmhm5j4ghes+2KPwPpDC9T5I4fo+AAAAP1yPAj+4HgU/FK4HP3A9Cj/MzAw/KFwPP4brET/iehQ/PgoXP5qZGT/2KBw/UrgeP65HIT8K1yM/ZmYmP8L1KD8ehSs/ehQuP9ijMD80MzM/kMI1P+xROD9I4To/pHA9PwAAQD9cj0I/uB5FPxSuRz9wPUo/zMxMPyhcTz+G61E/4npUPz4KVz+amVk/9ihcP1K4Xj+uR2E/CtdjP2ZmZj/C9Wg/HoVrP3oUbj/Yo3A/NDNzP5DCdT/sUXg/SOF6P6RwfT8=">
+          <key/>
+        </bitinvader>
+      </instrument>
+      <eldata fcut="1233" ftype="2" fwet="1" fres="3.52">
+        <elvol att="0.112" dec="0.78800005" lspd="0.1" userwavefile="" lamt="0" lshp="0" lpdel="0" lspd_syncmode="0" amt="1" pdel="0" x100="0" hold="0" ctlenvamt="0" rel="0.1" lspd_numerator="4" lspd_denominator="4" sustain="0.5" latt="0"/>
+        <elcut att="0" dec="0.5" lspd="0.1" userwavefile="" lamt="0" lshp="0" lpdel="0" lspd_syncmode="0" amt="0" pdel="0" x100="0" hold="0.5" ctlenvamt="0" rel="0.1" lspd_numerator="4" lspd_denominator="4" sustain="0.5" latt="0"/>
+        <elres att="0" dec="0.5" lspd="0.1" userwavefile="" lamt="0" lshp="0" lpdel="0" lspd_syncmode="0" amt="0" pdel="0" x100="0" hold="0.5" ctlenvamt="0" rel="0.1" lspd_numerator="4" lspd_denominator="4" sustain="0.5" latt="0"/>
+      </eldata>
+      <chordcreator chordrange="1" chord="0" chord-enabled="0"/>
+      <arpeggiator arprange="1" arptime="200" arpskip="0" arpmiss="0" arptime_numerator="4" arptime_denominator="4" arpcycle="0" arpgate="100" arp="0" arp-enabled="0" arprepeats="1" arptime_syncmode="0" arpdir="0" arpmode="0"/>
+      <fxchain enabled="0" numofeffects="0"/>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>

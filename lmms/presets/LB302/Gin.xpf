@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project creatorversion="1.2.2" version="1.0" type="instrumenttracksettings" creator="LMMS">
+  <head/>
+  <instrumenttracksettings type="0" solo="0" name="LB302" muted="0">
+    <instrumenttrack vol="42.400002" fxch="0" pitch="138" pitchrange="2" usemasterpitch="1" basenote="57" pan="0">
+      <instrument name="lb302">
+        <lb302 dist="0" slide="0" db24="0" dead="0" vcf_dec="0.47" vcf_mod="1" shape="8" vcf_cut="0.32499999" slide_dec="1" vcf_res="1.25"/>
+      </instrument>
+      <eldata fres="0.5" fcut="14000" fwet="0" ftype="0">
+        <elvol ctlenvamt="0" x100="0" amt="0" lspd_denominator="4" lamt="0" att="0" dec="0.5" pdel="0" sustain="0.5" userwavefile="" lpdel="0" lspd="0.1" lspd_syncmode="0" rel="0.1" latt="0" lspd_numerator="4" hold="0.5" lshp="0"/>
+        <elcut ctlenvamt="0" x100="0" amt="0" lspd_denominator="4" lamt="0" att="0" dec="0.5" pdel="0" sustain="0.5" userwavefile="" lpdel="0" lspd="0.1" lspd_syncmode="0" rel="0.1" latt="0" lspd_numerator="4" hold="0.5" lshp="0"/>
+        <elres ctlenvamt="0" x100="0" amt="0" lspd_denominator="4" lamt="0" att="0" dec="0.5" pdel="0" sustain="0.5" userwavefile="" lpdel="0" lspd="0.1" lspd_syncmode="0" rel="0.1" latt="0" lspd_numerator="4" hold="0.5" lshp="0"/>
+      </eldata>
+      <chordcreator chord="0" chord-enabled="0" chordrange="1"/>
+      <arpeggiator arp-enabled="0" arprange="1" arpdir="0" arpmode="0" arpskip="0" arptime_syncmode="0" arptime_numerator="4" arp="0" arpgate="100" arptime_denominator="4" arptime="200" arpmiss="0" arpcycle="0"/>
+      <midiport outputchannel="1" outputprogram="1" fixedoutputvelocity="-1" fixedoutputnote="-1" inputcontroller="0" inputchannel="0" readable="0" fixedinputvelocity="-1" outputcontroller="0" writable="0" basevelocity="63"/>
+      <fxchain numofeffects="2" enabled="1">
+        <effect wet="-0.17" gate="0" autoquit_syncmode="0" on="1" autoquit_denominator="4" autoquit="1" name="ladspaeffect" autoquit_numerator="4">
+          <ladspacontrols ports="4">
+            <port00 data="1"/>
+            <port01 data="1"/>
+            <port02 data="1"/>
+            <port03 data="1"/>
+          </ladspacontrols>
+          <key>
+            <attribute value="caps" name="file"/>
+            <attribute value="PlateX2" name="plugin"/>
+          </key>
+        </effect>
+        <effect wet="1" gate="0" autoquit_syncmode="0" on="1" autoquit_denominator="4" autoquit="1" name="eq" autoquit_numerator="4">
+          <Eq Highshelfactive="1" Peak3active="1" Peak3gain="-18" LowShelfres="1.4" Peak1active="0" HP="0" Peak4bw="0.30000001" AnalyseIn="1" Peak3bw="0.69900006" LP48="0" LP="0" LP24="0" Peak2active="1" HPactive="0" Peak2bw="0.30000001" HighShelfres="1.4" HP12="1" Peak2gain="11.34" LPres="0.70700002" Peak4gain="1.62" HP48="0" Lowshelfgain="-18" HPres="0.70700002" HighShelfgain="-18" Peak4active="1" AnalyseOut="1" Peak1bw="0.30000001" LP12="1" Outputgain="0" LPactive="0" Lowshelfactive="1" HP24="0">
+            <Inputgain id="6564960" value="0" scale_type="log"/>
+            <Peak1gain id="4648470" value="0" scale_type="log"/>
+            <HPfreq id="4347285" value="31.000004" scale_type="log"/>
+            <LowShelffreq id="7311394" value="91.85228" scale_type="log"/>
+            <Peak1freq id="7665111" value="119.99998" scale_type="log"/>
+            <Peak2freq id="2631864" value="461.96259" scale_type="log"/>
+            <Peak3freq id="1707654" value="6833.3599" scale_type="log"/>
+            <Peak4freq id="5232919" value="159.24295" scale_type="log"/>
+            <Highshelffreq id="4816406" value="2251.7195" scale_type="log"/>
+            <LPfreq id="7609684" value="17999.996" scale_type="log"/>
+          </Eq>
+          <key/>
+        </effect>
+      </fxchain>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>

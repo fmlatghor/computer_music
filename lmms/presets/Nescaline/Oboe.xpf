@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project version="1.0" creatorversion="1.2.2" type="instrumenttracksettings" creator="LMMS">
+  <head/>
+  <instrumenttracksettings name="Nescaline" muted="0" type="0" solo="0">
+    <instrumenttrack fxch="0" basenote="57" pitch="-767" usemasterpitch="1" pitchrange="24" pan="0" vol="100">
+      <instrument name="nes">
+        <nes envon2="0" on3="1" swamt1="0" nfreq4="0" nq4="1" vol2="15" swrate2="0" envlen4="0" nmode4="0" vol4="0" crs2="-24" envloop4="0" sweep1="0" dc1="0" crs1="-24" nfrqmode4="0" envlen1="0" swrate1="0" on4="0" vol="0.33000001" vibr="0" sweep2="0" nswp4="-7" vol1="15" envloop2="0" envloop1="0" swamt2="0" on2="1" envlen2="0" dc2="2" crs3="-24" on1="1" envon1="0" envon4="0" vol3="15"/>
+      </instrument>
+      <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+        <elvol rel="0.1" lspd_numerator="4" att="0" lamt="0" lpdel="0" lspd="0.1" userwavefile="" hold="0.5" x100="0" lspd_syncmode="0" lshp="0" ctlenvamt="0" latt="0" dec="0.5" sustain="0.5" amt="0" lspd_denominator="4" pdel="0"/>
+        <elcut rel="0.1" lspd_numerator="4" att="0" lamt="0" lpdel="0" lspd="0.1" userwavefile="" hold="0.5" x100="0" lspd_syncmode="0" lshp="0" ctlenvamt="0" latt="0" dec="0.5" sustain="0.5" amt="0" lspd_denominator="4" pdel="0"/>
+        <elres rel="0.1" lspd_numerator="4" att="0" lamt="0" lpdel="0" lspd="0.1" userwavefile="" hold="0.5" x100="0" lspd_syncmode="0" lshp="0" ctlenvamt="0" latt="0" dec="0.5" sustain="0.5" amt="0" lspd_denominator="4" pdel="0"/>
+      </eldata>
+      <chordcreator chordrange="1" chord-enabled="0" chord="0"/>
+      <arpeggiator arptime_numerator="4" arpgate="100" arptime_syncmode="0" arprange="1" arp-enabled="0" arp="0" arptime="200" arpmode="0" arpmiss="0" arpcycle="0" arptime_denominator="4" arpdir="0" arpskip="0"/>
+      <midiport fixedoutputvelocity="-1" outputchannel="1" outputprogram="1" basevelocity="63" inputcontroller="0" inputchannel="0" readable="1" fixedinputvelocity="-1" inports="20:0 Keystation 49 MK3:Keystation 49 MK3 MIDI 1" fixedoutputnote="-1" writable="0" outputcontroller="0"/>
+      <fxchain numofeffects="1" enabled="1">
+        <effect wet="1" on="1" name="ladspaeffect" autoquit_syncmode="0" autoquit_numerator="4" gate="0" autoquit="1" autoquit_denominator="4">
+          <ladspacontrols ports="4">
+            <port00 data="1"/>
+            <port01 data="1"/>
+            <port02 data="1"/>
+            <port03 data="0.98874998"/>
+          </ladspacontrols>
+          <key>
+            <attribute name="file" value="caps"/>
+            <attribute name="plugin" value="PlateX2"/>
+          </key>
+        </effect>
+      </fxchain>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>

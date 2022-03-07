@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project creatorversion="1.2.2" version="1.0" type="instrumenttracksettings" creator="LMMS">
+  <head/>
+  <instrumenttracksettings muted="0" name="OpulenZ" type="0" solo="0">
+    <instrumenttrack basenote="57" fxch="0" pan="0" usemasterpitch="1" pitch="0" pitchrange="1" vol="145.60001">
+      <instrument name="OPL2">
+        <OPL2 op1_scale="0" op2_vib="0" vib_depth="0" op1_ksr="0" op1_s="3" op2_r="12" op1_a="14" op1_vib="0" op1_mul="0" op2_mul="1" op2_trem="0" op1_perc="0" op1_d="14" op1_lvl="62" trem_depth="0" op1_trem="0" fm="0" op2_d="3" op1_r="10" op2_ksr="0" op2_waveform="3" op1_waveform="0" feedback="0" op2_s="14" op2_scale="0" op2_lvl="63" op2_a="1" op2_perc="0"/>
+      </instrument>
+      <eldata ftype="0" fwet="0" fcut="14000" fres="0.5">
+        <elvol lspd="0.1" dec="0.5" lshp="0" lspd_denominator="4" latt="0" sustain="0.5" att="0" amt="1" x100="0" lpdel="0" lamt="0" userwavefile="" ctlenvamt="0" hold="0.5" rel="0.1" lspd_numerator="4" lspd_syncmode="0" pdel="0"/>
+        <elcut lspd="0.1" dec="0.5" lshp="0" lspd_denominator="4" latt="0" sustain="0.5" att="0" amt="0" x100="0" lpdel="0" lamt="0" userwavefile="" ctlenvamt="0" hold="0.5" rel="0.1" lspd_numerator="4" lspd_syncmode="0" pdel="0"/>
+        <elres lspd="0.1" dec="0.5" lshp="0" lspd_denominator="4" latt="0" sustain="0.5" att="0" amt="0" x100="0" lpdel="0" lamt="0" userwavefile="" ctlenvamt="0" hold="0.5" rel="0.1" lspd_numerator="4" lspd_syncmode="0" pdel="0"/>
+      </eldata>
+      <chordcreator chord-enabled="0" chordrange="1" chord="0"/>
+      <arpeggiator arpmiss="0" arptime="200" arprange="1" arptime_denominator="4" arpcycle="0" arptime_numerator="4" arp="0" arpskip="0" arpmode="0" arp-enabled="0" arpgate="100" arptime_syncmode="0" arpdir="0"/>
+      <midiport outputcontroller="0" fixedoutputvelocity="-1" writable="0" outputchannel="1" inputcontroller="0" basevelocity="63" inputchannel="0" fixedinputvelocity="-1" readable="1" outputprogram="1" inports="20:0 Keystation 49 MK3:Keystation 49 MK3 MIDI 1" fixedoutputnote="-1"/>
+      <fxchain numofeffects="0" enabled="1"/>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>

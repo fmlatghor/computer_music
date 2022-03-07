@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project creator="LMMS" type="instrumenttracksettings" version="1.0" creatorversion="1.2.2">
+  <head/>
+  <instrumenttracksettings type="0" muted="0" solo="0" name="beep.wav">
+    <instrumenttrack vol="200" pan="0" pitchrange="60" basenote="57" fxch="0" pitch="-2356" usemasterpitch="1">
+      <instrument name="audiofileprocessor">
+        <audiofileprocessor src="/home/lcoogan/a-art/a-src/fmKit/synths/beep.wav" stutter="0" amp="100" interp="1" sframe="0" eframe="1" reversed="0" lframe="0" looped="0"/>
+      </instrument>
+      <eldata fcut="14000" ftype="0" fwet="0" fres="0.5">
+        <elvol sustain="0.5" pdel="0" rel="0.1" lshp="0" hold="0.5" ctlenvamt="0" lamt="0" lpdel="0" amt="0" lspd_syncmode="0" x100="0" lspd="0.1" att="0" lspd_numerator="4" userwavefile="" lspd_denominator="4" latt="0" dec="0.5"/>
+        <elcut sustain="0.5" pdel="0" rel="0.1" lshp="0" hold="0.5" ctlenvamt="0" lamt="0" lpdel="0" amt="0" lspd_syncmode="0" x100="0" lspd="0.1" att="0" lspd_numerator="4" userwavefile="" lspd_denominator="4" latt="0" dec="0.5"/>
+        <elres sustain="0.5" pdel="0" rel="0.1" lshp="0" hold="0.5" ctlenvamt="0" lamt="0" lpdel="0" amt="0" lspd_syncmode="0" x100="0" lspd="0.1" att="0" lspd_numerator="4" userwavefile="" lspd_denominator="4" latt="0" dec="0.5"/>
+      </eldata>
+      <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+      <arpeggiator arp-enabled="0" arptime_numerator="4" arp="0" arpcycle="0" arptime="200" arpmiss="0" arpskip="0" arpmode="0" arptime_syncmode="0" arprange="1" arptime_denominator="4" arpgate="100" arpdir="0"/>
+      <midiport fixedoutputnote="-1" fixedoutputvelocity="-1" basevelocity="63" outputchannel="1" outputcontroller="0" fixedinputvelocity="-1" writable="0" outputprogram="1" inputchannel="0" readable="1" inports="28:0 Keystation 49 MK3:Keystation 49 MK3 MIDI 1" inputcontroller="0"/>
+      <fxchain enabled="1" numofeffects="5">
+        <effect autoquit_numerator="4" autoquit_syncmode="0" on="1" wet="0.41" autoquit_denominator="4" autoquit="1" gate="0" name="ladspaeffect">
+          <ladspacontrols ports="4">
+            <port00 data="1"/>
+            <port01 data="1"/>
+            <port02 data="1"/>
+            <port03 data="1"/>
+          </ladspacontrols>
+          <key>
+            <attribute value="caps" name="file"/>
+            <attribute value="PlateX2" name="plugin"/>
+          </key>
+        </effect>
+        <effect autoquit_numerator="4" autoquit_syncmode="0" on="1" wet="1" autoquit_denominator="4" autoquit="1" gate="0" name="ladspaeffect">
+          <ladspacontrols link="0" ports="22">
+            <port00 link="1" data="1"/>
+            <port01 link="1" data="0.13"/>
+            <port02 link="1" data="0.15375"/>
+            <port03 link="1" data="0.5"/>
+            <port04 link="1" data="0"/>
+            <port05 link="1" data="0.25"/>
+            <port06 link="1" data="0.75"/>
+            <port07 link="1" data="1"/>
+            <port08 link="1" data="0.25"/>
+            <port09 link="1" data="0.75"/>
+            <port010 link="1" data="0.75"/>
+            <port10 data="1"/>
+            <port11 data="0.13"/>
+            <port12 data="0.15375"/>
+            <port13 data="0.5"/>
+            <port14 data="0"/>
+            <port15 data="0.25"/>
+            <port16 data="0.75"/>
+            <port17 data="1"/>
+            <port18 data="0.25"/>
+            <port19 data="0.75"/>
+            <port110 data="0.75"/>
+          </ladspacontrols>
+          <key>
+            <attribute value="caps" name="file"/>
+            <attribute value="AmpVTS" name="plugin"/>
+          </key>
+        </effect>
+        <effect autoquit_numerator="4" autoquit_syncmode="0" on="1" wet="1" autoquit_denominator="4" autoquit="1" gate="0" name="amplifier">
+          <AmplifierControls pan="0" left="100" right="100" volume="200"/>
+          <key/>
+        </effect>
+        <effect autoquit_numerator="4" autoquit_syncmode="0" on="1" wet="0.63999999" autoquit_denominator="4" autoquit="1" gate="0" name="bitcrush">
+          <bitcrushcontrols outgain="0" depthon="1" innoise="0" ingain="0" outclip="0" rate="2857" stereodiff="0" levels="256" rateon="1"/>
+          <key/>
+        </effect>
+        <effect autoquit_numerator="4" autoquit_syncmode="0" on="1" wet="1" autoquit_denominator="4" autoquit="1" gate="0" name="amplifier">
+          <AmplifierControls pan="0" left="100" right="100" volume="152"/>
+          <key/>
+        </effect>
+      </fxchain>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>

@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project creator="LMMS" type="instrumenttracksettings" version="1.0" creatorversion="1.2.2">
+  <head/>
+  <instrumenttracksettings muted="0" name="Monstro" type="0" solo="0">
+    <instrumenttrack vol="5.5999999" pitchrange="1" basenote="57" fxch="0" usemasterpitch="1" pitch="100" pan="0">
+      <instrument name="monstro">
+        <monstro l1rat_denominator="4" l1rat="1" e1dec_numerator="4" e1rel_syncmode="0" l2att_numerator="4" o2pan="0" f1e1="0" o2spo="0" f3e2="0" e1hol_syncmode="0" s3l1="0" e1rel_denominator="4" e1hol_denominator="4" l2phs="0" e2att_denominator="4" o1crs="0" o3wav2="0" e2rel_numerator="4" l2att="0" e2att="0" f3l2="0" v3l2="0" o3vol="33" p3e1="0" e1slo="0" f1l2="0" e2slo="0" f2e1="0" e2hol_denominator="4" e2rel_denominator="4" w1e2="0" v2e2="0" l2rat="1" l1rat_numerator="4" v1l2="0" s3l2="0" o1pw="50" o3wav1="0" e2pre_syncmode="0" e2att_numerator="4" l1att_syncmode="0" o3syn="0" o1ssr="0" e1hol_numerator="4" w1l1="0" v1e1="0" p1l2="0" e1att_syncmode="0" e1hol="0" f2e2="0" s3e2="0" e2rel="0" v2l1="0" p1e2="0" p3l2="0" e2pre_denominator="4" l2att_syncmode="0" w1l2="0" e2dec_denominator="4" o1ftr="0" v2l2="0" p2e2="0" o2vol="33" f1l1="0" e2hol_syncmode="0" f3l1="0" e1rel_numerator="4" e1att_denominator="4" w1e1="0" v1e2="0" p2l2="0" e1sus="1" l2rat_numerator="4" l2rat_denominator="4" e2att_syncmode="0" e2hol_numerator="4" f3e1="0" e1pre_syncmode="0" v1l1="0" l2rat_syncmode="0" v3l1="0" e2sus="1" e2pre_numerator="4" o2crs="0" v2e1="0" f1e2="0" l2att_denominator="4" o1ssf="0" f2l1="0" e2dec_numerator="4" f2l2="0" e1att_numerator="4" p2l1="0" o2ftl="0" o2ftr="0" o1pan="0" l1att="0" o2syn="0" e1rel="0" o3synr="0" o3pan="0" e2pre="0" o3crs="0" l1phs="0" l1att_numerator="4" p3l1="0" l1att_denominator="4" o3spo="0" p2e1="0" p1e1="0" e2hol="0" e1pre_denominator="4" v3e1="0" l1rat_syncmode="0" p1l1="0" e1pre="0" v3e2="0" e2rel_syncmode="0" o2synr="0" o1ftl="0" l2wav="0" e1pre_numerator="4" o23mo="0" p3e2="0" o3sub="0" e1dec_denominator="4" e1dec_syncmode="0" l1wav="0" e2dec="0" e2dec_syncmode="0" s3e1="0" o1spo="0" e1att="0" o2wav="0" e1dec="0" o1vol="33"/>
+      </instrument>
+      <eldata fcut="14000" fwet="0" fres="0.5" ftype="0">
+        <elvol sustain="0.5" lspd_numerator="4" latt="0" amt="0" lshp="0" att="0" ctlenvamt="0" lamt="0" userwavefile="" lspd_syncmode="0" lspd="0.1" lpdel="0" dec="0.5" pdel="0" rel="0.1" hold="0.5" lspd_denominator="4" x100="0"/>
+        <elcut sustain="0.5" lspd_numerator="4" latt="0" amt="0" lshp="0" att="0" ctlenvamt="0" lamt="0" userwavefile="" lspd_syncmode="0" lspd="0.1" lpdel="0" dec="0.5" pdel="0" rel="0.1" hold="0.5" lspd_denominator="4" x100="0"/>
+        <elres sustain="0.5" lspd_numerator="4" latt="0" amt="0" lshp="0" att="0" ctlenvamt="0" lamt="0" userwavefile="" lspd_syncmode="0" lspd="0.1" lpdel="0" dec="0.5" pdel="0" rel="0.1" hold="0.5" lspd_denominator="4" x100="0"/>
+      </eldata>
+      <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+      <arpeggiator arp="0" arptime_denominator="4" arpgate="100" arprange="1" arptime_numerator="4" arpcycle="0" arpskip="0" arp-enabled="0" arpmiss="0" arptime_syncmode="0" arptime="200" arpdir="0" arpmode="0"/>
+      <midiport writable="0" outputprogram="1" outputcontroller="0" basevelocity="63" inputchannel="0" readable="0" fixedinputvelocity="-1" fixedoutputvelocity="-1" fixedoutputnote="-1" inputcontroller="0" outputchannel="1"/>
+      <fxchain numofeffects="3" enabled="1">
+        <effect name="ladspaeffect" autoquit="1" autoquit_syncmode="0" wet="1" autoquit_numerator="4" gate="0" on="1" autoquit_denominator="4">
+          <ladspacontrols link="1" ports="22">
+            <port00 link="1" data="1"/>
+            <port01 link="1" data="1"/>
+            <port02 link="1" data="1"/>
+            <port03 link="1" data="1"/>
+            <port04 link="1" data="0"/>
+            <port05 link="1" data="1"/>
+            <port06 link="1" data="0"/>
+            <port07 link="1" data="0"/>
+            <port08 link="1" data="0.25"/>
+            <port09 link="1" data="0.75"/>
+            <port010 link="1" data="0.75"/>
+            <port10 data="1"/>
+            <port11 data="1"/>
+            <port12 data="1"/>
+            <port13 data="1"/>
+            <port14 data="0"/>
+            <port15 data="1"/>
+            <port16 data="0"/>
+            <port17 data="0"/>
+            <port18 data="0.25"/>
+            <port19 data="0.75"/>
+            <port110 data="0.75"/>
+          </ladspacontrols>
+          <key>
+            <attribute name="file" value="caps"/>
+            <attribute name="plugin" value="AmpVTS"/>
+          </key>
+        </effect>
+        <effect name="ladspaeffect" autoquit="1" autoquit_syncmode="0" wet="1" autoquit_numerator="4" gate="0" on="1" autoquit_denominator="4">
+          <ladspacontrols link="1" ports="6">
+            <port00 link="1" data="3"/>
+            <port01 link="1" data="0"/>
+            <port02 link="1" data="11.115"/>
+            <port10 data="3"/>
+            <port11 data="0"/>
+            <port12 data="11.115"/>
+          </ladspacontrols>
+          <key>
+            <attribute name="file" value="imp_1199"/>
+            <attribute name="plugin" value="imp"/>
+          </key>
+        </effect>
+        <effect name="ladspaeffect" autoquit="1" autoquit_syncmode="0" wet="1" autoquit_numerator="4" gate="0" on="1" autoquit_denominator="4">
+          <ladspacontrols link="1" ports="14">
+            <port00 link="1" data="1"/>
+            <port01 link="1" data="1"/>
+            <port02 link="1" data="0.5"/>
+            <port03 link="1" data="1"/>
+            <port04 link="1" data="0.75"/>
+            <port05 link="1" data="0.5"/>
+            <port06 link="1" data="12"/>
+            <port10 data="1"/>
+            <port11 data="1"/>
+            <port12 data="0.5"/>
+            <port13 data="1"/>
+            <port14 data="0.75"/>
+            <port15 data="0.5"/>
+            <port16 data="12"/>
+          </ladspacontrols>
+          <key>
+            <attribute name="file" value="caps"/>
+            <attribute name="plugin" value="Compress"/>
+          </key>
+        </effect>
+      </fxchain>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project creatorversion="1.2.2" version="1.0" creator="LMMS" type="instrumenttracksettings">
+  <head/>
+  <instrumenttracksettings muted="0" solo="0" type="0" name="Vibed">
+    <instrumenttrack fxch="1" basenote="57" vol="100" pan="0" pitchrange="1" pitch="0" usemasterpitch="1">
+      <instrument name="vibedstrings">
+        <vibedstrings active7="0" pick0="0" volume0="100" slap0="0.75" active3="0" active5="0" active1="0" detune0="0.076000005" active4="0" version="0.1" stiffness0="0" pan0="0" active2="0" active6="0" active8="0" octave0="2" active0="1" graph0="AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8=" pickup0="0.050000001" impulse0="0" length0="1"/>
+      </instrument>
+      <eldata ftype="0" fcut="14000" fwet="0" fres="0.5">
+        <elvol att="0" rel="0.1" ctlenvamt="0" lspd_syncmode="0" pdel="0" lamt="0" amt="0" lshp="0" lspd="0.1" userwavefile="" lspd_numerator="4" dec="0.5" latt="0" sustain="0.5" lspd_denominator="4" lpdel="0" hold="0.5" x100="0"/>
+        <elcut att="0" rel="0.1" ctlenvamt="0" lspd_syncmode="0" pdel="0" lamt="0" amt="0" lshp="0" lspd="0.1" userwavefile="" lspd_numerator="4" dec="0.5" latt="0" sustain="0.5" lspd_denominator="4" lpdel="0" hold="0.5" x100="0"/>
+        <elres att="0" rel="0.1" ctlenvamt="0" lspd_syncmode="0" pdel="0" lamt="0" amt="0" lshp="0" lspd="0.1" userwavefile="" lspd_numerator="4" dec="0.5" latt="0" sustain="0.5" lspd_denominator="4" lpdel="0" hold="0.5" x100="0"/>
+      </eldata>
+      <chordcreator chordrange="1" chord="0" chord-enabled="0"/>
+      <arpeggiator arpcycle="0" arp-enabled="0" arpmiss="0" arptime_syncmode="0" arptime_denominator="4" arpgate="100" arptime_numerator="4" arptime="200" arpskip="0" arp="0" arpdir="0" arprange="1" arpmode="0"/>
+      <midiport outputchannel="1" fixedoutputvelocity="-1" inputchannel="0" fixedinputvelocity="-1" outputprogram="1" inports="" outputcontroller="0" fixedoutputnote="-1" basevelocity="63" inputcontroller="0" writable="0" readable="1"/>
+      <fxchain enabled="0" numofeffects="0"/>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project type="instrumenttracksettings" creator="LMMS" version="20" creatorversion="1.3.0-alpha.1.104+g4589004e6">
+  <head/>
+  <instrumenttracksettings type="0" mutedBeforeSolo="0" solo="0" muted="0" name="Monstro">
+    <instrumenttrack pitchrange="60" enablecc="0" usemasterpitch="1" pitch="-1772" lastkey="127" vol="31.200001" fxch="2" basenote="69" firstkey="0" pan="0">
+      <midicontrollers cc41="0" cc113="0" cc54="0" cc112="0" cc19="0" cc85="0" cc16="0" cc30="0" cc32="0" cc99="0" cc118="0" cc98="0" cc45="0" cc90="0" cc5="0" cc68="0" cc111="0" cc26="0" cc80="0" cc114="0" cc34="0" cc63="0" cc84="0" cc88="0" cc120="0" cc93="0" cc96="0" cc8="0" cc24="0" cc3="0" cc21="0" cc78="0" cc110="0" cc37="0" cc61="0" cc59="0" cc89="0" cc38="0" cc119="0" cc22="0" cc87="0" cc117="0" cc101="0" cc65="0" cc51="0" cc116="0" cc28="0" cc57="0" cc52="0" cc73="0" cc86="0" cc58="0" cc122="0" cc40="0" cc35="0" cc27="0" cc91="0" cc23="0" cc9="0" cc42="0" cc15="0" cc126="0" cc104="0" cc102="0" cc64="0" cc108="0" cc105="0" cc31="0" cc18="0" cc107="0" cc121="0" cc10="0" cc55="0" cc2="0" cc56="0" cc29="0" cc36="0" cc72="0" cc75="0" cc74="0" cc44="0" cc46="0" cc109="0" cc66="0" cc48="0" cc62="0" cc25="0" cc82="0" cc94="0" cc17="0" cc47="0" cc1="0" cc67="0" cc124="0" cc12="0" cc6="0" cc92="0" cc13="0" cc77="0" cc125="0" cc81="0" cc95="0" cc100="0" cc49="0" cc83="0" cc103="0" cc60="0" cc79="0" cc70="0" cc106="0" cc20="0" cc97="0" cc123="0" cc39="0" cc14="0" cc4="0" cc33="0" cc43="0" cc127="0" cc0="0" cc69="0" cc7="0" cc50="0" cc53="0" cc76="0" cc11="0" cc115="0" cc71="0"/>
+      <instrument name="monstro">
+        <monstro e2rel_syncmode="0" e1hol_syncmode="0" v2e2="0" w1l1="0" f1l2="0" l1att_syncmode="0" p2e1="0" e1dec="0" o1pw="50" v3l1="0" o1spo="0" o1pan="0" e1rel_numerator="4" v1l2="0" s3e1="0" p1l1="0" f3e2="0" e2rel_denominator="4" l2phs="0" e1slo="0" e2att="0" e1hol_denominator="4" p3l2="0" o3sub="0" e1hol="0" e2hol="0" l2att="0" l1rat_syncmode="0" s3e2="0" e1hol_numerator="4" v3e2="0" e2pre_denominator="4" f2l2="0" o2ftr="0" e1dec_syncmode="0" l1att_denominator="4" l1rat_denominator="4" l2att_numerator="4" o2wav="0" o3wav2="0" l2rat_numerator="4" f2e2="0" l1att="0" e1sus="1" l1phs="0" l2att_denominator="4" e2rel_numerator="4" e1pre_denominator="4" e1rel_denominator="4" l2rat_denominator="4" p3e2="0" e2att_numerator="4" e1dec_numerator="4" l1wav="0" e1rel="0" e1rel_syncmode="0" o3pan="0" o1ftl="0" o3synr="0" e1pre="0" f2e1="0" w1l2="0" f3e1="0" e1att="0" e2hol_numerator="4" l1att_numerator="4" p1e2="0" e2dec="0" o1ftr="0" e2dec_numerator="4" l2att_syncmode="0" p2l2="0" f2l1="0" p2l1="0" l1rat_numerator="4" e2rel="0" e2hol_denominator="4" f1l1="0" p1e1="0" e2dec_syncmode="0" f1e1="0" o2vol="33" e2pre_numerator="4" o3vol="33" s3l1="0" e2hol_syncmode="0" o2syn="0" l2rat="1" o3spo="0" o1vol="33" e2att_denominator="4" f3l2="0" e1att_numerator="4" o2ftl="0" o2spo="0" e1dec_denominator="4" e2dec_denominator="4" w1e1="0" e2slo="0" o1ssf="0" s3l2="0" v3e1="0" w1e2="0" o3crs="0" l2rat_syncmode="0" l2wav="0" v1l1="0" e2att_syncmode="0" p3e1="0" v3l2="0" v2e1="0" p3l1="0" e2pre="0" e1att_denominator="4" e2pre_syncmode="0" e1att_syncmode="0" f3l1="0" o1crs="0" v2l2="0" p2e2="0" p1l2="0" v1e1="0" f1e2="0" l1rat="1" o2synr="0" e1pre_numerator="4" e1pre_syncmode="0" o3syn="0" o2crs="0" o3wav1="0" e2sus="1" v2l1="0" o23mo="0" o1ssr="0" v1e2="0" o2pan="0">
+          <key/>
+        </monstro>
+      </instrument>
+      <eldata fres="4.0599999" fwet="1" fcut="560" ftype="0">
+        <elvol lamt="0" sustain="0.5" userwavefile="" lspd_syncmode="0" dec="0.5" lspd_numerator="4" lpdel="0" lshp="0" latt="0" x100="0" ctlenvamt="0" lspd_denominator="4" amt="1" att="0" hold="0.092000008" pdel="0" rel="0.1" lspd="0.1"/>
+        <elcut lamt="0" sustain="0.5" userwavefile="" lspd_syncmode="0" dec="0.5" lspd_numerator="4" lpdel="0" lshp="0" latt="0" x100="0" ctlenvamt="0" lspd_denominator="4" amt="0" att="0" hold="0.5" pdel="0" rel="0.1" lspd="0.1"/>
+        <elres lamt="0" sustain="0.5" userwavefile="" lspd_syncmode="0" dec="0.5" lspd_numerator="4" lpdel="0" lshp="0" latt="0" x100="0" ctlenvamt="0" lspd_denominator="4" amt="0" att="0" hold="0.5" pdel="0" rel="0.1" lspd="0.1"/>
+      </eldata>
+      <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+      <arpeggiator arptime_numerator="4" arptime_denominator="4" arpcycle="0" arp="0" arprepeats="1" arptime_syncmode="0" arpmode="0" arp-enabled="1" arptime="200" arpgate="100" arprange="3" arpmiss="0" arpskip="0" arpdir="0"/>
+      <fxchain enabled="1" numofeffects="2">
+        <effect wet="1" autoquit_denominator="4" autoquit="1" autoquit_syncmode="0" autoquit_numerator="4" gate="0" on="1" name="ladspaeffect">
+          <ladspacontrols ports="4">
+            <port02 data="0.0049999999"/>
+            <port03 data="0.37450001"/>
+            <port04 data="1"/>
+            <port05 data="0.59200001"/>
+          </ladspacontrols>
+          <key>
+            <attribute value="caps" name="file"/>
+            <attribute value="Plate2x2" name="plugin"/>
+          </key>
+        </effect>
+        <effect wet="1" autoquit_denominator="4" autoquit="1" autoquit_syncmode="0" autoquit_numerator="4" gate="0" on="1" name="ladspaeffect">
+          <ladspacontrols link="1" ports="0"/>
+          <key>
+            <attribute value="declip_1195" name="file"/>
+            <attribute value="declip" name="plugin"/>
+          </key>
+        </effect>
+      </fxchain>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>

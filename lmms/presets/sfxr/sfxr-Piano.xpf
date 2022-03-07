@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project creator="LMMS" creatorversion="1.2.2" type="instrumenttracksettings" version="1.0">
+  <head/>
+  <instrumenttracksettings solo="0" name="sfxr-Piano" type="0" muted="0">
+    <instrumenttrack usemasterpitch="1" pitchrange="1" fxch="0" vol="100" pan="0" basenote="81" pitch="0">
+      <instrument name="sfxr">
+        <sfxr changeAmt="-0.028000001" hpFilCut="0.373" hpFilCutSweep="-0.94999999" dSlide="-0.0080000004" att="0.033" sqrSweep="0.89200002" sus="0.32600001" vibDepth="0" phaserSweep="0" vibSpeed="0" lpFilCutSweep="-0.85799998" slide="0" phaserOffset="0" dec="0.85600001" version="1" minFreq="0" startFreq="0.81999999" lpFilReso="0" sqrDuty="0.91299999" waveForm="1" repeatSpeed="0.31600001" changeSpeed="0.40599999" hold="0.050999999" lpFilCut="0.63800001"/>
+      </instrument>
+      <eldata ftype="0" fwet="0" fcut="14000" fres="0.5">
+        <elvol lamt="0" rel="0.1" lpdel="0" att="0" lspd="0.1" userwavefile="" lshp="0" amt="0" ctlenvamt="0" lspd_denominator="4" lspd_syncmode="0" dec="0.5" latt="0" lspd_numerator="4" pdel="0" sustain="0.5" x100="0" hold="0.5"/>
+        <elcut lamt="0" rel="0.1" lpdel="0" att="0" lspd="0.1" userwavefile="" lshp="0" amt="0" ctlenvamt="0" lspd_denominator="4" lspd_syncmode="0" dec="0.5" latt="0" lspd_numerator="4" pdel="0" sustain="0.5" x100="0" hold="0.5"/>
+        <elres lamt="0" rel="0.1" lpdel="0" att="0" lspd="0.1" userwavefile="" lshp="0" amt="0" ctlenvamt="0" lspd_denominator="4" lspd_syncmode="0" dec="0.5" latt="0" lspd_numerator="4" pdel="0" sustain="0.5" x100="0" hold="0.5"/>
+      </eldata>
+      <chordcreator chordrange="1" chord-enabled="0" chord="0"/>
+      <arpeggiator arptime_denominator="4" arprange="1" arp-enabled="0" arptime_syncmode="0" arpdir="0" arpskip="0" arpgate="100" arp="0" arptime_numerator="4" arpmiss="0" arpcycle="0" arpmode="0" arptime="100"/>
+      <midiport outputcontroller="0" outputprogram="1" readable="0" writable="0" fixedoutputnote="-1" outputchannel="1" inputchannel="0" fixedinputvelocity="-1" inputcontroller="0" fixedoutputvelocity="-1" basevelocity="63"/>
+      <fxchain enabled="1" numofeffects="4">
+        <effect gate="1" wet="1" autoquit_denominator="4" autoquit="8000" name="ladspaeffect" autoquit_syncmode="0" on="1" autoquit_numerator="4">
+          <ladspacontrols ports="9">
+            <port07>
+              <data value="1.971" scale_type="log" id="7697987"/>
+            </port07>
+            <port08>
+              <data value="6345" scale_type="log" id="8358441"/>
+            </port08>
+            <port09 data="2"/>
+            <port010 data="0.5"/>
+            <port011 data="1.02"/>
+            <port012 data="1"/>
+            <port013 data="0"/>
+            <port014>
+              <data value="20" scale_type="log" id="4003374"/>
+            </port014>
+            <port015>
+              <data value="19980" scale_type="log" id="6738689"/>
+            </port015>
+          </ladspacontrols>
+          <key>
+            <attribute value="calf" name="file"/>
+            <attribute value="Reverb" name="plugin"/>
+          </key>
+        </effect>
+        <effect gate="1" wet="1" autoquit_denominator="4" autoquit="8000" name="ladspaeffect" autoquit_syncmode="0" on="1" autoquit_numerator="4">
+          <ladspacontrols link="1" ports="4">
+            <port00 link="1">
+              <data value="5009.75" scale_type="log" id="1044967"/>
+            </port00>
+            <port01 link="1" data="1"/>
+            <port10>
+              <data value="5009.75" scale_type="log" id="7702240"/>
+            </port10>
+            <port11 data="1"/>
+          </ladspacontrols>
+          <key>
+            <attribute value="lowpass_iir_1891" name="file"/>
+            <attribute value="lowpass_iir" name="plugin"/>
+          </key>
+        </effect>
+        <effect gate="1" wet="1" autoquit_denominator="4" autoquit="8000" name="ladspaeffect" autoquit_syncmode="0" on="1" autoquit_numerator="4">
+          <ladspacontrols link="1" ports="4">
+            <port00 link="1">
+              <data value="248.007" scale_type="log" id="6048005"/>
+            </port00>
+            <port01 link="1" data="1"/>
+            <port10>
+              <data value="248.007" scale_type="log" id="7592678"/>
+            </port10>
+            <port11 data="1"/>
+          </ladspacontrols>
+          <key>
+            <attribute value="highpass_iir_1890" name="file"/>
+            <attribute value="highpass_iir" name="plugin"/>
+          </key>
+        </effect>
+        <effect gate="1" wet="1" autoquit_denominator="4" autoquit="8000" name="ladspaeffect" autoquit_syncmode="0" on="1" autoquit_numerator="4">
+          <ladspacontrols ports="3">
+            <port00 data="0"/>
+            <port01 data="-2"/>
+            <port02 data="507.45001" data_denominator="4" data_numerator="4" data_syncmode="0"/>
+          </ladspacontrols>
+          <key>
+            <attribute value="fast_lookahead_limiter_1913" name="file"/>
+            <attribute value="fastLookaheadLimiter" name="plugin"/>
+          </key>
+        </effect>
+      </fxchain>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>

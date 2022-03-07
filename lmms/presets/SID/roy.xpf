@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project type="instrumenttracksettings" version="21" creator="LMMS" creatorversion="1.3.0-alpha.1.144+g3d7ef9fa4">
+  <head/>
+  <instrumenttracksettings muted="0" solo="0" type="0" name="SID" mutedBeforeSolo="0">
+    <instrumenttrack lastkey="127" keymap="0" pitchrange="2" basenote="69" enablecc="0" scale="0" pan="0.78740156" usemasterpitch="1" fxch="0" firstkey="0" range_import="1" enabled="0">
+      <vol scale_type="linear" value="51.181103" id="5748564"/>
+      <pitch scale_type="linear" value="-35.9375" id="8172434"/>
+      <midicontrollers cc62="0" cc116="0" cc89="0" cc78="0" cc96="0" cc64="0" cc11="0" cc114="0" cc120="0" cc72="0" cc115="0" cc111="0" cc104="0" cc109="0" cc24="0" cc77="0" cc0="0" cc46="0" cc9="0" cc33="0" cc95="0" cc51="0" cc123="0" cc126="0" cc118="0" cc32="0" cc121="0" cc63="0" cc17="0" cc45="0" cc90="0" cc52="0" cc82="0" cc47="0" cc102="0" cc122="0" cc92="0" cc93="0" cc81="0" cc50="0" cc112="0" cc127="0" cc2="0" cc12="0" cc25="0" cc108="0" cc103="0" cc94="0" cc4="0" cc101="0" cc85="0" cc65="0" cc20="0" cc91="0" cc15="0" cc55="0" cc53="0" cc31="0" cc16="0" cc97="0" cc59="0" cc22="0" cc14="0" cc88="0" cc73="0" cc18="0" cc61="0" cc48="0" cc87="0" cc60="0" cc13="0" cc19="0" cc76="0" cc41="0" cc40="0" cc10="0" cc75="0" cc6="0" cc3="0" cc27="0" cc67="0" cc106="0" cc110="0" cc107="0" cc49="0" cc124="0" cc5="0" cc71="0" cc100="0" cc119="0" cc7="0" cc23="0" cc54="0" cc69="0" cc113="0" cc79="0" cc98="0" cc26="0" cc29="0" cc21="0" cc68="0" cc58="0" cc1="0" cc44="0" cc117="0" cc66="0" cc80="0" cc57="0" cc125="0" cc8="0" cc34="0" cc86="0" cc30="0" cc28="0" cc42="0" cc38="0" cc43="0" cc36="0" cc105="0" cc39="0" cc99="0" cc74="0" cc35="0" cc56="0" cc37="0" cc83="0" cc70="0" cc84="0"/>
+      <instrument name="sid">
+        <sid filterMode="2" coarse0="0" release0="8" ringmod1="0" attack1="8" filtered0="0" voice3Off="0" decay0="8" waveform2="1" decay1="8" attack2="8" waveform0="1" coarse2="0" chipModel="1" sync2="0" sustain2="15" pulsewidth2="2048" volume="15" filtered2="0" pulsewidth0="2048" filterFC="1024" sustain0="15" coarse1="0" sustain1="15" filterResonance="8" attack0="8" release1="8" test0="0" decay2="8" test2="0" test1="0" release2="8" ringmod0="0" sync0="0" ringmod2="0" filtered1="0" sync1="0" pulsewidth1="2048" waveform1="1">
+          <key/>
+        </sid>
+      </instrument>
+      <eldata fcut="14000" fwet="0" fres="0.5" ftype="0">
+        <elvol ctlenvamt="0" lamt="0" lspd_denominator="4" lspd_syncmode="0" latt="0" lspd="0.1" lpdel="0" lshp="0" rel="0.1" amt="0" pdel="0" userwavefile="" x100="0" att="0" sustain="0.5" dec="0.5" lspd_numerator="4" hold="0.5"/>
+        <elcut ctlenvamt="0" lamt="0" lspd_denominator="4" lspd_syncmode="0" latt="0" lspd="0.1" lpdel="0" lshp="0" rel="0.1" amt="0" pdel="0" userwavefile="" x100="0" att="0" sustain="0.5" dec="0.5" lspd_numerator="4" hold="0.5"/>
+        <elres ctlenvamt="0" lamt="0" lspd_denominator="4" lspd_syncmode="0" latt="0" lspd="0.1" lpdel="0" lshp="0" rel="0.1" amt="0" pdel="0" userwavefile="" x100="0" att="0" sustain="0.5" dec="0.5" lspd_numerator="4" hold="0.5"/>
+      </eldata>
+      <chordcreator chord-enabled="0" chord="0" chordrange="1"/>
+      <arpeggiator arp="0" arpgate="100" arprange="1" arprepeats="1" arptime_syncmode="0" arptime_denominator="4" arp-enabled="0" arpdir="0" arpcycle="0" arpmiss="0" arptime_numerator="4" arpskip="0" arptime="200" arpmode="0"/>
+      <fxchain numofeffects="0" enabled="0"/>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>

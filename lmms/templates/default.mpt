@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project version="1.0" type="song" creator="LMMS" creatorversion="1.2.2">
+  <head timesig_numerator="4" mastervol="100" timesig_denominator="4" masterpitch="0" bpm="140"/>
+  <song>
+    <trackcontainer height="300" width="600" type="song" maximized="0" y="5" x="6" visible="1" minimized="0"/>
+    <track type="6" muted="0" solo="0" name="Automation track">
+      <automationtrack/>
+      <automationpattern tens="1" pos="0" len="192" prog="0" name="Numerator" mute="0"/>
+      <automationpattern tens="1" pos="0" len="192" prog="0" name="Denominator" mute="0"/>
+      <automationpattern tens="1" pos="0" len="192" prog="0" name="Tempo" mute="0"/>
+      <automationpattern tens="1" pos="0" len="192" prog="0" name="Master volume" mute="0"/>
+      <automationpattern tens="1" pos="0" len="192" prog="0" name="Master pitch" mute="0"/>
+      <automationpattern tens="1" pos="0" len="192" prog="0" name="Numerator" mute="0"/>
+      <automationpattern tens="1" pos="0" len="192" prog="0" name="Denominator" mute="0"/>
+      <automationpattern tens="1" pos="0" len="192" prog="0" name="Tempo" mute="0"/>
+      <automationpattern tens="1" pos="0" len="192" prog="0" name="Master volume" mute="0"/>
+      <automationpattern tens="1" pos="0" len="192" prog="0" name="Master pitch" mute="0"/>
+    </track>
+    <fxmixer height="333" width="561" maximized="0" y="310" x="5" visible="1" minimized="0">
+      <fxchannel num="0" muted="0" soloed="0" name="Master" volume="1">
+        <fxchain numofeffects="0" enabled="0"/>
+      </fxchannel>
+    </fxmixer>
+    <ControllerRackView height="200" width="350" maximized="0" y="407" x="836" visible="1" minimized="0"/>
+    <pianoroll height="480" width="860" maximized="0" y="1" x="1" visible="0" minimized="0"/>
+    <automationeditor height="400" width="860" maximized="0" y="255" x="56" visible="0" minimized="0"/>
+    <projectnotes height="400" width="1025" maximized="0" y="1" x="1" visible="0" minimized="0"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'FreeMono'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>]]></projectnotes>
+    <timeline lp0pos="0" lpstate="0" lp1pos="192"/>
+    <controllers/>
+  </song>
+</lmms-project>

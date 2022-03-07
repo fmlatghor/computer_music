@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project creatorversion="1.3.0-alpha.1.144+g3d7ef9fa4" type="instrumenttracksettings" creator="LMMS" version="21">
+  <head/>
+  <instrumenttracksettings type="0" solo="0" name="flute" mutedBeforeSolo="0" muted="0">
+    <instrumenttrack fxch="0" lastkey="127" enabled="0" range_import="1" scale="0" enablecc="0" pitchrange="1" pan="0" firstkey="0" usemasterpitch="1" pitch="0" vol="100" basenote="69" keymap="0">
+      <midicontrollers cc47="0" cc123="0" cc124="0" cc26="0" cc42="0" cc108="0" cc109="0" cc81="0" cc25="0" cc85="0" cc86="0" cc97="0" cc2="0" cc95="0" cc5="0" cc53="0" cc111="0" cc112="0" cc114="0" cc43="0" cc33="0" cc28="0" cc121="0" cc16="0" cc93="0" cc125="0" cc73="0" cc63="0" cc105="0" cc1="0" cc68="0" cc117="0" cc115="0" cc66="0" cc13="0" cc7="0" cc113="0" cc21="0" cc69="0" cc39="0" cc67="0" cc37="0" cc104="0" cc20="0" cc103="0" cc60="0" cc71="0" cc30="0" cc36="0" cc100="0" cc12="0" cc56="0" cc46="0" cc99="0" cc6="0" cc82="0" cc91="0" cc19="0" cc94="0" cc102="0" cc23="0" cc79="0" cc116="0" cc45="0" cc10="0" cc92="0" cc87="0" cc4="0" cc54="0" cc32="0" cc61="0" cc107="0" cc70="0" cc78="0" cc119="0" cc126="0" cc22="0" cc72="0" cc11="0" cc57="0" cc15="0" cc59="0" cc44="0" cc40="0" cc48="0" cc51="0" cc98="0" cc0="0" cc31="0" cc29="0" cc84="0" cc38="0" cc96="0" cc127="0" cc50="0" cc106="0" cc3="0" cc52="0" cc58="0" cc35="0" cc55="0" cc88="0" cc77="0" cc90="0" cc27="0" cc89="0" cc65="0" cc8="0" cc17="0" cc110="0" cc18="0" cc41="0" cc74="0" cc75="0" cc118="0" cc34="0" cc9="0" cc49="0" cc80="0" cc62="0" cc14="0" cc83="0" cc64="0" cc122="0" cc76="0" cc24="0" cc101="0" cc120="0"/>
+      <instrument name="bitinvader">
+        <bitinvader sampleShape="AAAAAArXozwK1yM9j8J1PQrXoz3NzMw9j8L1PSlcDz4K1yM+7FE4Ps3MTD6uR2E+j8J1PrgehT4pXI8+mpmZPgrXoz57FK4+7FG4PlyPwj7NzMw+PQrXPq5H4T4fhes+j8L1PgAAAD+4HgU/cT0KPylcDz/hehQ/mpkZP1K4Hj8K1yM/w/UoP3sULj8zMzM/7FE4P6RwPT9cj0I/FK5HP83MTD+F61E/PQpXP/YoXD+uR2E/ZmZmPx+Faz/Xo3A/j8J1P0jhej8AAIA/SOF6P5DCdT/Yo3A/HoVrP2ZmZj+uR2E/9ihcPz4KVz+G61E/zMxMPxSuRz9cj0I/pHA9P+xROD80MzM/ehQuP8L1KD8K1yM/UrgeP5qZGT/iehQ/KFwPP3A9Cj+4HgU/AAAAP5DC9T4ghes+sEfhPjwK1z7MzMw+XI/CPuxRuD58FK4+DNejPpiZmT4oXI8+uB6FPpDCdT6wR2E+0MxMPuhROD4I1yM+KFwPPpDC9T3QzMw9ENejPYDCdT0A1yM9ANejPAAAAAAA16O8ANcjvYDCdb0A16O9wMzMvYDC9b0wXA++ENcjvvBROL7QzEy+sEdhvpDCdb64HoW+KFyPvpiZmb4I16O+eBSuvuhRuL5gj8K+0MzMvkAK176wR+G+IIXrvpDC9b4AAAC/uB4Fv3A9Cr8oXA+/4HoUv5iZGb9QuB6/DNcjv8T1KL98FC6/NDMzv+xROL+kcD2/XI9CvxSuR7/MzEy/hOtRvzwKV7/0KFy/sEdhv2hmZr8ghWu/2KNwv5DCdb9I4Xq/AACAv0jher+QwnW/2KNwvyCFa79oZma/sEdhv/QoXL88Cle/hOtRv8zMTL8Urke/XI9Cv6RwPb/sUTi/NDMzv3wULr/E9Si/DNcjv1C4Hr+YmRm/4HoUvyhcD79wPQq/uB4FvwAAAL+QwvW+IIXrvrBH4b5ACte+0MzMvmCPwr7oUbi+eBSuvgjXo76YmZm+KFyPvrgehb6QwnW+sEdhvtDMTL7wUTi+ENcjvjBcD76AwvW9wMzMvQDXo72AwnW9ANcjvQDXo7w=" interpolation="1" sampleLength="200" version="0.1" normalize="0">
+          <key/>
+        </bitinvader>
+      </instrument>
+      <eldata fres="8.46" fcut="1232" fwet="1" ftype="9">
+        <elvol lpdel="0" lspd="0.1" lspd_denominator="4" lspd_syncmode="0" lspd_numerator="4" lshp="0" rel="0.1" pdel="0" sustain="0.5" dec="1.8600001" x100="0" lamt="0" amt="1" hold="0.5" userwavefile="" att="0.112" ctlenvamt="0" latt="0"/>
+        <elcut lpdel="0" lspd="0.1" lspd_denominator="4" lspd_syncmode="0" lspd_numerator="4" lshp="0" rel="0.1" pdel="0" sustain="0.5" dec="0.5" x100="0" lamt="0" amt="0" hold="0.5" userwavefile="" att="0" ctlenvamt="0" latt="0"/>
+        <elres lpdel="0" lspd="0.1" lspd_denominator="4" lspd_syncmode="0" lspd_numerator="4" lshp="0" rel="0.1" pdel="0" sustain="0.5" dec="0.5" x100="0" lamt="0" amt="0" hold="0.5" userwavefile="" att="0" ctlenvamt="0" latt="0"/>
+      </eldata>
+      <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+      <arpeggiator arp-enabled="0" arprange="1" arpgate="100" arptime_syncmode="0" arp="0" arpskip="0" arptime_denominator="4" arpmode="0" arprepeats="1" arpmiss="0" arptime="200" arpdir="0" arpcycle="0" arptime_numerator="4"/>
+      <fxchain enabled="1" numofeffects="6">
+        <effect autoquit_denominator="4" gate="0" autoquit_syncmode="0" autoquit_numerator="4" name="ladspaeffect" autoquit="1" on="1" wet="1">
+          <ladspacontrols ports="6" link="1">
+            <port00 link="1">
+              <data id="3662436" scale_type="log" value="295.83179"/>
+            </port00>
+            <port01 link="1">
+              <data id="7539042" scale_type="log" value="295.83179"/>
+            </port01>
+            <port02 data="1" link="1"/>
+            <port10>
+              <data id="3526689" scale_type="log" value="295.83179"/>
+            </port10>
+            <port11>
+              <data id="6058995" scale_type="log" value="295.83179"/>
+            </port11>
+            <port12 data="1"/>
+          </ladspacontrols>
+          <key>
+            <attribute name="file" value="notch_iir_1894"/>
+            <attribute name="plugin" value="notch_iir"/>
+          </key>
+        </effect>
+        <effect autoquit_denominator="4" gate="0" autoquit_syncmode="0" autoquit_numerator="4" name="ladspaeffect" autoquit="1" on="1" wet="1">
+          <ladspacontrols ports="4" link="1">
+            <port01 data="1" link="1"/>
+            <port02 data="24" link="1"/>
+            <port11 data="1"/>
+            <port12 data="24"/>
+          </ladspacontrols>
+          <key>
+            <attribute name="file" value="caps"/>
+            <attribute name="plugin" value="CabinetII"/>
+          </key>
+        </effect>
+        <effect autoquit_denominator="4" gate="0" autoquit_syncmode="0" autoquit_numerator="4" name="ladspaeffect" autoquit="1" on="1" wet="1">
+          <ladspacontrols ports="6" link="1">
+            <port00 data="0" link="1"/>
+            <port01 link="1">
+              <data id="5031094" scale_type="log" value="703.13177"/>
+            </port01>
+            <port02 data="0.35599998" link="1"/>
+            <port10 data="0"/>
+            <port11>
+              <data id="1710100" scale_type="log" value="703.13177"/>
+            </port11>
+            <port12 data="0.35599998"/>
+          </ladspacontrols>
+          <key>
+            <attribute name="file" value="ls_filter_1908"/>
+            <attribute name="plugin" value="lsFilter"/>
+          </key>
+        </effect>
+        <effect autoquit_denominator="4" gate="0" autoquit_syncmode="0" autoquit_numerator="4" name="amplifier" autoquit="1" on="1" wet="1">
+          <AmplifierControls pan="0" right="100" volume="200" left="100"/>
+          <key/>
+        </effect>
+        <effect autoquit_denominator="4" gate="0" autoquit_syncmode="0" autoquit_numerator="4" name="lv2effect" autoquit="1" on="1" wet="1">
+          <lv2controls>
+            <models delay="24" fb="0" type="1" damp="83" lpf="85" hpf="5" unused_er="0" bw="20" unused_bw="0" size="64" time="63"/>
+          </lv2controls>
+          <key>
+            <attribute name="uri" value="http://zynaddsubfx.sourceforge.net/fx#Reverb"/>
+          </key>
+        </effect>
+        <effect autoquit_denominator="4" gate="0" autoquit_syncmode="0" autoquit_numerator="4" name="lv2effect" autoquit="1" on="1" wet="1">
+          <lv2controls>
+            <models auto="0.58999997" pan="0.61000001"/>
+          </lv2controls>
+          <key>
+            <attribute name="uri" value="http://drobilla.net/plugins/mda/RoundPan"/>
+          </key>
+        </effect>
+      </fxchain>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>

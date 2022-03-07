@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project version="20" type="instrumenttracksettings" creatorversion="1.3.0-alpha.1.103+g89f0a98e3" creator="LMMS">
+  <head/>
+  <instrumenttracksettings name="Mallets" mutedBeforeSolo="132" type="0" solo="0" muted="0">
+    <instrumenttrack vol="172" fxch="0" usemasterpitch="1" pan="0" pitch="-6000" basenote="69" firstkey="0" lastkey="127" pitchrange="60" enablecc="0">
+      <midicontrollers cc97="0" cc79="0" cc120="0" cc12="0" cc83="0" cc113="0" cc13="0" cc111="0" cc60="0" cc90="0" cc72="0" cc127="0" cc52="0" cc7="0" cc71="0" cc10="0" cc93="0" cc42="0" cc9="0" cc28="0" cc103="0" cc70="0" cc107="0" cc8="0" cc81="0" cc25="0" cc44="0" cc46="0" cc14="0" cc114="0" cc43="0" cc56="0" cc11="0" cc41="0" cc47="0" cc85="0" cc45="0" cc106="0" cc17="0" cc100="0" cc75="0" cc119="0" cc121="0" cc29="0" cc16="0" cc94="0" cc6="0" cc2="0" cc15="0" cc76="0" cc0="0" cc20="0" cc35="0" cc65="0" cc37="0" cc57="0" cc58="0" cc26="0" cc101="0" cc125="0" cc91="0" cc116="0" cc122="0" cc36="0" cc51="0" cc18="0" cc78="0" cc82="0" cc84="0" cc86="0" cc89="0" cc123="0" cc3="0" cc31="0" cc77="0" cc87="0" cc99="0" cc126="0" cc63="0" cc98="0" cc21="0" cc23="0" cc110="0" cc102="0" cc5="0" cc62="0" cc117="0" cc30="0" cc59="0" cc67="0" cc105="0" cc64="0" cc112="0" cc96="0" cc4="0" cc66="0" cc68="0" cc39="0" cc95="0" cc19="0" cc115="0" cc22="0" cc27="0" cc50="0" cc38="0" cc40="0" cc108="0" cc55="0" cc61="0" cc73="0" cc24="0" cc34="0" cc53="0" cc1="0" cc124="0" cc74="0" cc104="0" cc80="0" cc88="0" cc109="0" cc118="0" cc69="0" cc92="0" cc32="0" cc49="0" cc48="0" cc54="0" cc33="0"/>
+      <instrument name="malletsstk">
+        <malletsstk preset="12" lfo_depth="64" velocity="128" strike="1" oldversion="0" version="1" vib_gain="0" vib_freq="0" modulator="64" adsr="64" stick_mix="0" crossfade="64" pressure="127.6" spread="230" hardness="64" position="64" lfo_speed="64">
+          <key/>
+        </malletsstk>
+      </instrument>
+      <eldata fcut="14000" fres="0.5" fwet="0" ftype="0">
+        <elvol x100="0" lspd_syncmode="0" sustain="0.5" lspd="0.1" lamt="0" latt="0" lspd_denominator="4" ctlenvamt="0" hold="0.5" lspd_numerator="4" att="0" userwavefile="" lpdel="0" pdel="0" dec="0.5" amt="0" lshp="0" rel="0.1"/>
+        <elcut x100="0" lspd_syncmode="0" sustain="0.5" lspd="0.1" lamt="0" latt="0" lspd_denominator="4" ctlenvamt="0" hold="0.5" lspd_numerator="4" att="0" userwavefile="" lpdel="0" pdel="0" dec="0.5" amt="0" lshp="0" rel="0.1"/>
+        <elres x100="0" lspd_syncmode="0" sustain="0.5" lspd="0.1" lamt="0" latt="0" lspd_denominator="4" ctlenvamt="0" hold="0.5" lspd_numerator="4" att="0" userwavefile="" lpdel="0" pdel="0" dec="0.5" amt="0" lshp="0" rel="0.1"/>
+      </eldata>
+      <chordcreator chord-enabled="0" chord="0" chordrange="1"/>
+      <arpeggiator arpskip="0" arptime_denominator="4" arptime_syncmode="0" arpgate="100" arpcycle="0" arptime="200" arp="0" arptime_numerator="4" arp-enabled="0" arpmode="0" arpdir="0" arprange="1" arprepeats="1" arpmiss="0"/>
+      <fxchain numofeffects="2" enabled="1">
+        <effect name="ladspaeffect" on="1" gate="0" autoquit_numerator="4" wet="1" autoquit="1" autoquit_denominator="4" autoquit_syncmode="0">
+          <ladspacontrols link="1" ports="8">
+            <port00 link="1" data="25"/>
+            <port01 link="1" data="0.25"/>
+            <port02 link="1" data="0"/>
+            <port03 link="1" data="1"/>
+            <port10 data="25"/>
+            <port11 data="0.25"/>
+            <port12 data="0"/>
+            <port13 data="1"/>
+          </ladspacontrols>
+          <key>
+            <attribute name="file" value="phasers_1217"/>
+            <attribute name="plugin" value="lfoPhaser"/>
+          </key>
+        </effect>
+        <effect name="ladspaeffect" on="1" gate="0" autoquit_numerator="4" wet="1" autoquit="1" autoquit_denominator="4" autoquit_syncmode="0">
+          <ladspacontrols link="1" ports="14">
+            <port01 link="1" data="2.96"/>
+            <port02 link="1" data="1"/>
+            <port03 link="1" data="20"/>
+            <port04 link="1" data="-20"/>
+            <port05 link="1" data="-5.1199999"/>
+            <port06 link="1" data="-20"/>
+            <port07 link="1" data="1"/>
+            <port11 data="2.96"/>
+            <port12 data="1"/>
+            <port13 data="20"/>
+            <port14 data="-20"/>
+            <port15 data="-5.1199999"/>
+            <port16 data="-20"/>
+            <port17 data="1"/>
+          </ladspacontrols>
+          <key>
+            <attribute name="file" value="caps"/>
+            <attribute name="plugin" value="AmpIV"/>
+          </key>
+        </effect>
+      </fxchain>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>

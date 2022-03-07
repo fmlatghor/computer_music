@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project creatorversion="1.3.0-alpha.1.104+g4589004e6" creator="LMMS" type="instrumenttracksettings" version="20">
+  <head/>
+  <instrumenttracksettings solo="0" muted="0" type="0" mutedBeforeSolo="0" name="Nescaline">
+    <instrumenttrack fxch="0" enablecc="0" vol="0.80000001" basenote="69" firstkey="0" usemasterpitch="1" pitch="-42" pitchrange="1" pan="0" lastkey="127">
+      <midicontrollers cc48="0" cc80="0" cc45="0" cc27="0" cc37="0" cc73="0" cc55="0" cc41="0" cc68="0" cc78="0" cc114="0" cc65="0" cc13="0" cc24="0" cc40="0" cc120="0" cc22="0" cc46="0" cc69="0" cc23="0" cc39="0" cc127="0" cc64="0" cc91="0" cc3="0" cc17="0" cc14="0" cc96="0" cc86="0" cc105="0" cc26="0" cc0="0" cc25="0" cc70="0" cc2="0" cc5="0" cc47="0" cc106="0" cc123="0" cc43="0" cc99="0" cc10="0" cc31="0" cc57="0" cc85="0" cc7="0" cc12="0" cc102="0" cc35="0" cc42="0" cc76="0" cc124="0" cc63="0" cc54="0" cc33="0" cc28="0" cc81="0" cc51="0" cc92="0" cc6="0" cc4="0" cc34="0" cc74="0" cc11="0" cc109="0" cc61="0" cc115="0" cc49="0" cc20="0" cc66="0" cc121="0" cc56="0" cc110="0" cc117="0" cc9="0" cc112="0" cc118="0" cc119="0" cc98="0" cc71="0" cc126="0" cc38="0" cc77="0" cc111="0" cc125="0" cc107="0" cc93="0" cc104="0" cc58="0" cc32="0" cc108="0" cc101="0" cc50="0" cc15="0" cc75="0" cc97="0" cc62="0" cc83="0" cc44="0" cc30="0" cc84="0" cc18="0" cc52="0" cc16="0" cc29="0" cc21="0" cc113="0" cc82="0" cc67="0" cc59="0" cc95="0" cc122="0" cc53="0" cc87="0" cc8="0" cc60="0" cc89="0" cc100="0" cc19="0" cc1="0" cc79="0" cc103="0" cc116="0" cc88="0" cc90="0" cc36="0" cc72="0" cc94="0"/>
+      <instrument name="nes">
+        <nes envloop1="1" on2="1" on3="1" vol1="15" envloop2="1" sweep1="1" envlen1="0" vol3="15" nq4="1" vibr="1" envon4="1" swamt2="-2" swrate2="7" envloop4="1" crs1="0" vol="1" swrate1="7" envon1="1" on1="0" dc1="2" vol4="15" dc2="3" crs3="0" envlen4="15" envlen2="0" nfrqmode4="1" nswp4="-5" on4="0" swamt1="-1" sweep2="1" nfreq4="9" crs2="0" vol2="15" envon2="0" nmode4="1">
+          <key/>
+        </nes>
+      </instrument>
+      <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+        <elvol pdel="0" hold="0.5" sustain="0.5" latt="0" ctlenvamt="0" userwavefile="" lspd_denominator="4" lpdel="0" dec="0.5" lspd_numerator="4" lamt="0" amt="0" lspd="0.1" rel="0.1" lshp="0" lspd_syncmode="0" x100="0" att="0"/>
+        <elcut pdel="0" hold="0.5" sustain="0.5" latt="0" ctlenvamt="0" userwavefile="" lspd_denominator="4" lpdel="0" dec="0.5" lspd_numerator="4" lamt="0" amt="0" lspd="0.1" rel="0.1" lshp="0" lspd_syncmode="0" x100="0" att="0"/>
+        <elres pdel="0" hold="0.5" sustain="0.5" latt="0" ctlenvamt="0" userwavefile="" lspd_denominator="4" lpdel="0" dec="0.5" lspd_numerator="4" lamt="0" amt="0" lspd="0.1" rel="0.1" lshp="0" lspd_syncmode="0" x100="0" att="0"/>
+      </eldata>
+      <chordcreator chordrange="1" chord="0" chord-enabled="0"/>
+      <arpeggiator arp="0" arpmiss="0" arpgate="100" arp-enabled="0" arptime_syncmode="0" arprepeats="1" arptime_numerator="4" arptime_denominator="4" arpmode="0" arpcycle="0" arpskip="0" arprange="1" arpdir="0" arptime="200"/>
+      <fxchain numofeffects="2" enabled="1">
+        <effect gate="0" autoquit_numerator="4" autoquit_syncmode="0" wet="1" on="1" autoquit="1" autoquit_denominator="4" name="ladspaeffect">
+          <ladspacontrols ports="3">
+            <port04 data="0"/>
+            <port05 data="100"/>
+            <port06 data="1240.876"/>
+          </ladspacontrols>
+          <key>
+            <attribute value="cmt" name="file"/>
+            <attribute value="lofi" name="plugin"/>
+          </key>
+        </effect>
+        <effect gate="0" autoquit_numerator="4" autoquit_syncmode="0" wet="1" on="1" autoquit="1" autoquit_denominator="4" name="ladspaeffect">
+          <ladspacontrols ports="2" link="1">
+            <port01 data="8.6400003" link="1"/>
+            <port11 data="8.6400003"/>
+          </ladspacontrols>
+          <key>
+            <attribute value="caps" name="file"/>
+            <attribute value="Clip" name="plugin"/>
+          </key>
+        </effect>
+      </fxchain>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>

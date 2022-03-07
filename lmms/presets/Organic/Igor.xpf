@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project type="instrumenttracksettings" creatorversion="1.2.2" creator="LMMS" version="1.0">
+  <head/>
+  <instrumenttracksettings name="Organic" muted="0" type="0" solo="0">
+    <instrumenttrack basenote="57" pitch="0" usemasterpitch="1" fxch="0" vol="93.599998" pan="0.78740156" pitchrange="2">
+      <instrument name="organic">
+        <organic newharmonic3="3" vol4="39" foldback="0" num_osc="8" wavetype5="0" wavetype2="4" newharmonic0="0" pan7="0" newharmonic5="5" newdetune0="-5" wavetype3="3" newdetune5="-5" newharmonic2="2" newharmonic1="1" newdetune1="-5" vol0="57" vol6="53" newdetune2="1" newdetune6="4" vol5="96" wavetype6="3" pan0="0" pan6="0" wavetype0="1" vol3="77" pan4="0" wavetype4="4" pan2="0" wavetype7="3" pan1="0" pan3="0" newdetune3="4" newharmonic6="6" vol1="10" newharmonic7="7" newdetune7="-1" vol2="70" newharmonic4="4" wavetype1="3" pan5="0" vol7="6" vol="100" newdetune4="-3"/>
+      </instrument>
+      <eldata fwet="0" ftype="0" fres="0.5" fcut="14000">
+        <elvol userwavefile="" sustain="0.5" lamt="0" rel="0.1" lpdel="0" latt="0" att="0" amt="0" lspd_numerator="4" lspd="0.1" lspd_denominator="4" lshp="0" pdel="0" x100="0" ctlenvamt="0" lspd_syncmode="0" hold="0.5" dec="0.5"/>
+        <elcut userwavefile="" sustain="0.5" lamt="0" rel="0.1" lpdel="0" latt="0" att="0" amt="0" lspd_numerator="4" lspd="0.1" lspd_denominator="4" lshp="0" pdel="0" x100="0" ctlenvamt="0" lspd_syncmode="0" hold="0.5" dec="0.5"/>
+        <elres userwavefile="" sustain="0.5" lamt="0" rel="0.1" lpdel="0" latt="0" att="0" amt="0" lspd_numerator="4" lspd="0.1" lspd_denominator="4" lshp="0" pdel="0" x100="0" ctlenvamt="0" lspd_syncmode="0" hold="0.5" dec="0.5"/>
+      </eldata>
+      <chordcreator chord-enabled="0" chord="0" chordrange="1"/>
+      <arpeggiator arpcycle="0" arprange="1" arpmode="0" arptime_syncmode="0" arp="0" arptime_numerator="4" arpmiss="0" arp-enabled="0" arptime="200" arpgate="100" arpskip="0" arpdir="0" arptime_denominator="4"/>
+      <midiport outputchannel="1" inputchannel="0" fixedoutputnote="-1" outputcontroller="0" fixedinputvelocity="-1" readable="0" writable="0" outputprogram="1" basevelocity="63" fixedoutputvelocity="-1" inputcontroller="0"/>
+      <fxchain enabled="0" numofeffects="0"/>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>

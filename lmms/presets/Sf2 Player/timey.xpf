@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project type="instrumenttracksettings" creatorversion="1.3.0-alpha.1.104+g4589004e6" version="20" creator="LMMS">
+  <head/>
+  <instrumenttracksettings type="0" muted="0" name="SalC5Light2" mutedBeforeSolo="0" solo="0">
+    <instrumenttrack vol="100" firstkey="0" enablecc="0" fxch="0" basenote="69" lastkey="127" pitchrange="1" usemasterpitch="1" pan="0" pitch="57">
+      <midicontrollers cc13="0" cc34="0" cc19="0" cc15="0" cc55="0" cc18="0" cc80="0" cc100="0" cc81="0" cc120="0" cc9="0" cc47="0" cc69="0" cc75="0" cc117="0" cc62="0" cc107="0" cc37="0" cc79="0" cc28="0" cc116="0" cc50="0" cc105="0" cc59="0" cc10="0" cc2="0" cc103="0" cc30="0" cc68="0" cc121="0" cc96="0" cc126="0" cc40="0" cc109="0" cc90="0" cc41="0" cc99="0" cc23="0" cc110="0" cc63="0" cc3="0" cc52="0" cc33="0" cc93="0" cc127="0" cc5="0" cc26="0" cc29="0" cc43="0" cc73="0" cc118="0" cc67="0" cc92="0" cc70="0" cc76="0" cc125="0" cc25="0" cc51="0" cc65="0" cc44="0" cc72="0" cc91="0" cc57="0" cc21="0" cc82="0" cc113="0" cc122="0" cc11="0" cc95="0" cc86="0" cc104="0" cc66="0" cc0="0" cc101="0" cc1="0" cc77="0" cc84="0" cc8="0" cc71="0" cc83="0" cc111="0" cc61="0" cc124="0" cc108="0" cc94="0" cc48="0" cc60="0" cc53="0" cc123="0" cc119="0" cc32="0" cc115="0" cc89="0" cc31="0" cc74="0" cc20="0" cc49="0" cc85="0" cc17="0" cc46="0" cc88="0" cc42="0" cc4="0" cc12="0" cc6="0" cc7="0" cc64="0" cc114="0" cc45="0" cc102="0" cc24="0" cc106="0" cc36="0" cc22="0" cc58="0" cc16="0" cc54="0" cc14="0" cc87="0" cc97="0" cc78="0" cc35="0" cc27="0" cc38="0" cc56="0" cc39="0" cc98="0" cc112="0"/>
+      <instrument name="sf2player">
+        <sf2player chorusSpeed="5" reverbWidth="1" chorusOn="0" chorusLevel="10" chorusNum="10" chorusDepth="46" bank="0" gain="5" patch="0" src="defaultsoundfont:SalC5Light2.sf2" reverbOn="0" reverbLevel="1" reverbDamping="1" reverbRoomSize="1">
+          <key/>
+        </sf2player>
+      </instrument>
+      <eldata fwet="0" ftype="0" fcut="14000" fres="0.5">
+        <elvol ctlenvamt="0" lspd_denominator="4" hold="0.5" att="0" amt="0" lamt="0" pdel="0" lspd_numerator="4" lshp="0" userwavefile="" sustain="0.5" dec="0.5" lspd="0.1" latt="0" lpdel="0" lspd_syncmode="0" x100="0" rel="0.1"/>
+        <elcut ctlenvamt="0" lspd_denominator="4" hold="0.5" att="0" amt="0" lamt="0" pdel="0" lspd_numerator="4" lshp="0" userwavefile="" sustain="0.5" dec="0.5" lspd="0.1" latt="0" lpdel="0" lspd_syncmode="0" x100="0" rel="0.1"/>
+        <elres ctlenvamt="0" lspd_denominator="4" hold="0.5" att="0" amt="0" lamt="0" pdel="0" lspd_numerator="4" lshp="0" userwavefile="" sustain="0.5" dec="0.5" lspd="0.1" latt="0" lpdel="0" lspd_syncmode="0" x100="0" rel="0.1"/>
+      </eldata>
+      <chordcreator chord-enabled="0" chord="0" chordrange="1"/>
+      <arpeggiator arpmiss="0" arptime_numerator="4" arptime="200" arp-enabled="0" arprepeats="1" arpskip="0" arptime_denominator="4" arpdir="0" arprange="1" arp="0" arpcycle="0" arpgate="100" arptime_syncmode="0" arpmode="0"/>
+      <fxchain enabled="1" numofeffects="7">
+        <effect autoquit_syncmode="0" name="ladspaeffect" wet="1" autoquit="1" autoquit_denominator="4" gate="0" autoquit_numerator="4" on="1">
+          <ladspacontrols ports="14">
+            <port04 data="97.5"/>
+            <port05 data="300"/>
+            <port06 data="8"/>
+            <port07 data="8"/>
+            <port08 data="16"/>
+            <port09 data="0.5"/>
+            <port010 data="-0.83999997"/>
+            <port011 data="0"/>
+            <port012 data="0"/>
+            <port015 data="0"/>
+            <port016 data="0.5"/>
+            <port017 data="0"/>
+            <port018 data="1"/>
+            <port019 data="1"/>
+          </ladspacontrols>
+          <key>
+            <attribute value="veal" name="file"/>
+            <attribute value="ReverseDelay" name="plugin"/>
+          </key>
+        </effect>
+        <effect autoquit_syncmode="0" name="ladspaeffect" wet="1" autoquit="1" autoquit_denominator="4" gate="0" autoquit_numerator="4" on="1">
+          <ladspacontrols ports="2" link="1">
+            <port00 data="0.099999994" link="1"/>
+            <port10 data="0.099999994"/>
+          </ladspacontrols>
+          <key>
+            <attribute value="alias_1407" name="file"/>
+            <attribute value="alias" name="plugin"/>
+          </key>
+        </effect>
+        <effect autoquit_syncmode="0" name="ladspaeffect" wet="1" autoquit="1" autoquit_denominator="4" gate="0" autoquit_numerator="4" on="1">
+          <ladspacontrols ports="12">
+            <port07>
+              <data value="0.51679987" scale_type="log" id="1997174"/>
+            </port07>
+            <port08>
+              <data value="6324.5552" scale_type="log" id="7012404"/>
+            </port08>
+            <port09 data="4"/>
+            <port010 data="1"/>
+            <port011 data="1.42"/>
+            <port012 data="1.12"/>
+            <port013 data="0"/>
+            <port014>
+              <data value="2071.0144" scale_type="log" id="4086570"/>
+            </port014>
+            <port015>
+              <data value="5854.1724" scale_type="log" id="3664466"/>
+            </port015>
+            <port016 data="1"/>
+            <port017 data="1"/>
+            <port018 data="1"/>
+          </ladspacontrols>
+          <key>
+            <attribute value="veal" name="file"/>
+            <attribute value="Reverb" name="plugin"/>
+          </key>
+        </effect>
+        <effect autoquit_syncmode="0" name="compressor" wet="1" autoquit="1" autoquit_denominator="4" gate="0" autoquit_numerator="4" on="1">
+          <CompressorControls stereoBalance="0" tilt="0" inBalance="0" lookahead="0" limiter="0" outGain="0" autoMakeup="0" audition="0" peakmode="0" autoAttack="0" blend="1" mix="100" midside="1" stereoLink="1" feedback="0" outBalance="0" autoRelease="0" inGain="0">
+            <threshold value="-16" scale_type="log" id="3113130"/>
+            <ratio value="3.6240001" scale_type="log" id="1838371"/>
+            <attack value="10" scale_type="log" id="4618884"/>
+            <release value="1" scale_type="log" id="7275067"/>
+            <knee value="12" scale_type="log" id="6781023"/>
+            <hold value="0" scale_type="log" id="911155"/>
+            <range value="-240" scale_type="log" id="3368665"/>
+            <rms value="250" scale_type="log" id="2073996"/>
+            <lookaheadLength value="0" scale_type="log" id="269972"/>
+            <tiltFreq value="20000" scale_type="log" id="7775296"/>
+          </CompressorControls>
+          <key/>
+        </effect>
+        <effect autoquit_syncmode="0" name="ladspaeffect" wet="0.39999998" autoquit="1" autoquit_denominator="4" gate="0" autoquit_numerator="4" on="1">
+          <ladspacontrols ports="12" link="1">
+            <port01 data_denominator="4" data_numerator="4" data_syncmode="0" link="1">
+              <data value="5" scale_type="log" id="5143750"/>
+            </port01>
+            <port02 data_denominator="4" data_numerator="4" data="1" data_syncmode="0" link="1"/>
+            <port03 data="0.958" link="1"/>
+            <port04 data="1" link="1"/>
+            <port05 data="1" link="1"/>
+            <port06 data="0.456" link="1"/>
+            <port11 data_denominator="4" data_numerator="4" data_syncmode="0">
+              <data value="5" scale_type="log" id="5038965"/>
+            </port11>
+            <port12 data_denominator="4" data_numerator="4" data="1" data_syncmode="0"/>
+            <port13 data="0.958"/>
+            <port14 data="1"/>
+            <port15 data="1"/>
+            <port16 data="0.456"/>
+          </ladspacontrols>
+          <key>
+            <attribute value="caps" name="file"/>
+            <attribute value="ChorusII" name="plugin"/>
+          </key>
+        </effect>
+        <effect autoquit_syncmode="0" name="ladspaeffect" wet="1" autoquit="1" autoquit_denominator="4" gate="0" autoquit_numerator="4" on="1">
+          <ladspacontrols ports="5">
+            <port00 data="1928"/>
+            <port01 data="33"/>
+            <port02 data="0.56799996"/>
+            <port03 data="1"/>
+            <port04 data="0.56400001"/>
+          </ladspacontrols>
+          <key>
+            <attribute value="vynil_1905" name="file"/>
+            <attribute value="vynil" name="plugin"/>
+          </key>
+        </effect>
+        <effect autoquit_syncmode="0" name="ladspaeffect" wet="0.38" autoquit="1" autoquit_denominator="4" gate="0" autoquit_numerator="4" on="1">
+          <ladspacontrols ports="4">
+            <port02 data="0.99900001"/>
+            <port03 data="0.74900001"/>
+            <port04 data="0.96201867"/>
+            <port05 data="1"/>
+          </ladspacontrols>
+          <key>
+            <attribute value="caps" name="file"/>
+            <attribute value="Plate2x2" name="plugin"/>
+          </key>
+        </effect>
+      </fxchain>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>
