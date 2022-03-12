@@ -1,0 +1,15 @@
+d1 $chop 8 $stack [
+	n "[0 1]"
+]
+	#s "control"
+	#legato 2
+
+
+d2
+$stack [
+	s "clak*16"
+	,s "print*2"
+	,s "chin*12"
+	,s "coins"
+]
+#gain 0.8
