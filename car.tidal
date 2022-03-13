@@ -13,3 +13,10 @@ $stack [
 	,s "coins"
 ]
 #gain 0.8
+
+d3
+$stack [
+s "808bd*8"
+,s "808oh*16 808oh*32 808oh*8 808oh*4"
+]
+-- #gain 1.1
