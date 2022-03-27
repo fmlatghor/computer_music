@@ -1,0 +1,22 @@
+d1 $stack [
+s "bd*4"
+,s "hh*3 hh"
+,s "~sd"
+]
+# gain "1.2"
+
+d2 $n "[0 7 2 8]*2"
+#s "bass1"
+
+d3 $s "hh*8"
+
+d4 $chop "10"
+$n "[8 9 3]*9"
+#octave "3"
+#s "padlong"
+
+d5 $s "sd*2"
+#gain ".8"
+
+d6 $s "bd bd*2"
+#gain "1.5"
