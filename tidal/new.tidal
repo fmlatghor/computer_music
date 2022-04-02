@@ -1,0 +1,21 @@
+-- Practise for algorave 8/4
+-- I call it "sarah"
+
+d1 $n "1*4 8*2 2*8"
+#s "haw"
+#octave 8
+
+d2 $s "click*3"
+
+d3 $s "hh ~ gretsch*3"
+
+d4 $s "~ cp ~ cp*2" -- sd might also be good
+#gain 0.6
+
+d5
+$n "cs*2 c2"
+#s "bass3"
+-- #octave 2
+
+d6 $ slow 8 $ s "sitar" <| n (run 8)
+#lpf "2009 300 200"
