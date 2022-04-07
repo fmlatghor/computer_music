@@ -1,0 +1,11 @@
+d1 $chop "<2 4 8>"
+$n "[a6 a7]*2"
+#s "glitch2"
+
+d2
+$n "c1 c2 c4 c0"
+#s "tink"
+#octave "2 3"
+
+d3
+#s "tink"

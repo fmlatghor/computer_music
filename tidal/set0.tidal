@@ -1,0 +1,25 @@
+-- PRactise for algorave
+
+d1
+$n "[c1 d3 c2 c4]*2"
+#s "tink"
+#octave "2 3"
+
+d2 $stack [
+s "~ co*2"
+,s "glitch*4 glitch"
+]
+#gain 0.8
+
+d3
+$n " ~ ~ ~ a8"
+#s "bass ~ ~ bass ~"
+-- #gain 0.8
+-- #octave 8
+-- #lpf 800
+
+d4
+$n "[e'min e*8]*4"
+#s "glitch2"
+#octave 6
+#gain "0.8"

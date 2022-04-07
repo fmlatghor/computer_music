@@ -1,0 +1,12 @@
+d1 $chop 2
+$n "[c3 0 d2]*2"
+#s "tink"
+#octave "2 3"
+#legato 2
+#gain 1.2
+
+d2 $stack [
+s "glitch*2"
+,s "~ co*2"
+s "bd ~ bd"
+]
