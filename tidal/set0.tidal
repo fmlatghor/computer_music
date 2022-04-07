@@ -16,7 +16,7 @@ $n " ~ ~ ~ a8"
 #s "bass ~ ~ bass ~"
 -- #gain 0.8
 -- #octave 8
--- #lpf 800
+#lpf 800
 
 d4
 $n "[e'min e*8]*4"

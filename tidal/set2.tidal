@@ -8,5 +8,5 @@ $n "[c3 0 d2]*2"
 d2 $stack [
 s "glitch*2"
 ,s "~ co*2"
-s "bd ~ bd"
+,s "bd ~ bd"
 ]
