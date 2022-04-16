@@ -14,7 +14,7 @@ d2 $n "0 2 3 6 8 20"
 #s "poly"
 #legato "3 1"
 #room 0.6
-#octave "5*2 6 5*2"
+#octave "3*2 6 5*2"
 
 d4 $n "a'min b'min*2"
 #s "newnotes"
@@ -27,9 +27,12 @@ s "glitch2*16"
 ]
 #gain "1.2"
 
-d6 $n "3 5 2 8 20 1 20 18 10 3"
+d6 $stack [
+n "3 5 2 8 20 1 20 18 10 3"
+,n "8 9 2 3 a'min*2 c'min"
+]
 #s "tink"
 #octave "4 3 2"
 #room 2
-#legato 1
-#gain "1.4"
+#legato "1"
+#gain "1.2"
