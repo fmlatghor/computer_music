@@ -1,0 +1,29 @@
+-- practise for 4/20 on seder!
+
+d1 $swingBy (1/12) 2
+$n "[0 3 4 2 cs]"
+#s "glitch2"
+#octave "3 2"
+#gain 1.4
+#legato "8"
+-- #lpf 800
+
+d2 $swingBy (1/12) 2 $stack [
+s "~ coins ~ coins"
+,s "bass1*2"
+,s "hh*3"
+]
+
+d4 $stack [
+s "bd*3 bd*8"
+,s "~ sd ~ sd"
+,s "hh*3"
+]
+
+d3 $n "3 8 4*3 35"
+#s "notes"
+
+d5 $chop "8" $n "8 3 2 8*8 a'min"
+#s "newnotes"
+#octave "5 6"
+#lpf 8000
