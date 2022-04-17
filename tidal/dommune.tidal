@@ -4,6 +4,9 @@ d1
 	$slow 2
 	$n "{cs8*80 25*32 3*74 4*16 2*8}%5"
 	|*| speed "[-1.0, 1.0]"
-	#s "midi"
-	#octave 6
+	#s "poly"
+	#octave 3
 	#sus 0.2
+	-- #gain 1.8
+
+d2 $chop 8 $s "butter" #lpf 4000 #speed 2
