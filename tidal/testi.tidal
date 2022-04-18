@@ -1,1 +1,10 @@
-d1 $n "0 8 2 20 5" #s "sin"
+setcps (125/60/4)
+
+d1 $n "0 8 2 20 5" #s "sin" -- #room 0.5
+
+d2 $s "foo:3" #gain 1.3
+
+d3 $stack [
+s "hh*16"
+,s "hh*8"
+]
