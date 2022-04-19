@@ -7,12 +7,15 @@ d1
 	#s "poly"
 	#octave 3
 	#sus 0.2
-	-- #gain 1.8
+	#gain 1.2
 
 d2 $chop 8 $s "butter" #lpf 4000 #speed 2
 
+-- ei hyvä
+-- d2 $s "foo:3" #speed 0.8 #gain 1.2
+
 d3 $n "[6 8 2 8]*4"
 #s "sin"
-#octave "7 5 6"
-#room 0.5
+#octave "7 5 6 5"
+-- #room 0.5
 #lpf "8000"
