@@ -1,0 +1,10 @@
+setcps 0.5625 -- default cps
+
+setcps (200/60/8) -- chopped & screwed
+
+
+d1 $s "amencutup" <| n (run 12) #speed 0.8
+
+d2 $n "d3 ~ ~" # s "em2"
+
+d3 $n "8 3 3 2 90" #s "superhex"

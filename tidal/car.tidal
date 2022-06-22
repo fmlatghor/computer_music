@@ -20,3 +20,17 @@ s "808bd*8"
 ,s "808oh*16 808oh*32 808oh*8 808oh*4"
 ]
 -- #gain 1.1
+
+d4
+$n "[c d]*2"
+#s "if"
+
+d5
+$stack [
+n "[c8 d2 ds3 a3]*2"
+,n "[d3 d2 d0]"
+]
+#s "poly"
+#octave "7"
+#speed "[0.3 0.2]"
+-- #start 0.1

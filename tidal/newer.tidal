@@ -1,0 +1,14 @@
+-- for wafer @ discord
+
+d1 $stack [ 
+s "bd*3"
+,s "~sd"
+,s "hh*3"
+]
+
+d2 $chop 24 $s "butter"
+#speed 1.5
+#room 1.1
+
+
+d3 $n "c3 d3 c4 c'min" #s "sin"
