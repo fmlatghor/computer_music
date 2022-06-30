@@ -125,8 +125,9 @@ d2 $chop 8 $s "butter" #lpf 4000 #speed 2
 d3 $n "[6 8 2 8]*4"
 #s "sin"
 #octave "7 5 6 5"
--- #room 0.5
-#lpf "8000"
+#room 0.5
+#gain 0.8
+#lpf "8000 3000"
 
 
 
@@ -170,3 +171,10 @@ n "3 5 2 8 20 1 20 18 10 3"
 #room 2
 #legato "1"
 -- #gain "1.2"
+
+d8 $stack [
+s "909*12"
+,s "sd*3"
+,s "bd*6"
+]
+#gain 1.4

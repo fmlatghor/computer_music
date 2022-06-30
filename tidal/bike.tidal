@@ -1,0 +1,18 @@
+setcps (125/60/4)
+
+d1  $n "[0 5 9 0]*2" #s "midi"
+
+d2 $stack [
+n "2 ~ ~ 0"
+,n "~ 4*2"
+]
+#s "midi"
+#octave 7
+
+d2 $stack [
+s "glitch2*3"
+,s "~ bend*2"
+,s "hh*32"
+]
+
+d3 $chop 24 $s "butter" #speed 2
