@@ -11,4 +11,4 @@ d2 $chop 24 $s "butter"
 #room 1.1
 
 
-d3 $n "c3 d3 c4 c'min" #s "sin"
+d3 $n "c3 d3 c4 c'min" #s "sine"
