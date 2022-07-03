@@ -8,3 +8,6 @@ d3 $stack [
 s "hh*16"
 ,s "hh*8"
 ]
+
+
+d1 $n "8 2 93 2 0" #s "sine"

@@ -1,0 +1,4 @@
+d1 $n "8 9 2" #s "poly" #lpf 800
+
+d2 $s "bd"
+#gain

@@ -25,7 +25,9 @@ d3
 	#octave 3
 	#gain (sine + 0.5)
 	-- #gain 1.2
-	
+
+-- THE PART!!!!
+
 xfade "tonix"
 	$n "[a'min d'min e'min]*18" -- 16 vai 18
 	#s "newnotes"

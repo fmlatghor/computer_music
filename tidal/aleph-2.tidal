@@ -29,7 +29,7 @@ d3
 	
 xfade "tonix"
 	$n "[a'min d'min e'min]*18" -- 16 vai 18
-	#s "arpy"
+	#s "sin"
 	#octave "3 4"
 	#gain 0.8
 
