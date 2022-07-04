@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project creator="LMMS" type="song" creatorversion="1.3.0-alpha.1.172+ga08e7f902" version="23">
+  <head timesig_denominator="4" timesig_numerator="4" masterpitch="0" bpm="140" mastervol="100"/>
+  <song>
+    <trackcontainer height="300" width="720" maximized="0" minimized="0" x="6" y="5" type="song" visible="1">
+      <track name="AnalogBell" solo="0" mutedBeforeSolo="0" muted="1" type="0">
+        <instrumenttrack pan="0" pitchrange="1" lastkey="127" keymap="0" range_import="1" mixch="0" enabled="0" pitch="-51" basenote="81" scale="0" firstkey="0" enablecc="0" vol="200" usemasterpitch="1">
+          <midicontrollers cc22="0" cc69="0" cc23="0" cc24="0" cc25="0" cc26="0" cc27="0" cc28="0" cc29="0" cc120="0" cc121="0" cc122="0" cc123="0" cc124="0" cc125="0" cc126="0" cc127="0" cc70="0" cc71="0" cc72="0" cc73="0" cc74="0" cc75="0" cc76="0" cc30="0" cc77="0" cc31="0" cc78="0" cc32="0" cc79="0" cc33="0" cc34="0" cc35="0" cc36="0" cc37="0" cc38="0" cc39="0" cc80="0" cc81="0" cc82="0" cc83="0" cc84="0" cc85="0" cc86="0" cc40="0" cc87="0" cc41="0" cc88="0" cc42="0" cc89="0" cc43="0" cc44="0" cc45="0" cc46="0" cc47="0" cc48="0" cc49="0" cc100="0" cc101="0" cc90="0" cc102="0" cc91="0" cc103="0" cc92="0" cc104="0" cc93="0" cc105="0" cc94="0" cc106="0" cc95="0" cc107="0" cc96="0" cc108="0" cc50="0" cc97="0" cc109="0" cc51="0" cc98="0" cc52="0" cc99="0" cc53="0" cc54="0" cc55="0" cc56="0" cc57="0" cc10="0" cc58="0" cc11="0" cc59="0" cc12="0" cc13="0" cc14="0" cc15="0" cc16="0" cc0="0" cc17="0" cc1="0" cc18="0" cc2="0" cc19="0" cc3="0" cc4="0" cc5="0" cc6="0" cc7="0" cc8="0" cc9="0" cc110="0" cc111="0" cc112="0" cc113="0" cc114="0" cc115="0" cc116="0" cc117="0" cc118="0" cc60="0" cc119="0" cc61="0" cc62="0" cc63="0" cc64="0" cc65="0" cc66="0" cc20="0" cc67="0" cc21="0" cc68="0"/>
+          <instrument name="tripleoscillator">
+            <tripleoscillator stphdetun0="74" finer0="0" finel1="0" coarse0="0" finer1="0" coarse1="0" stphdetun1="109" finel2="-14" coarse2="-12" finer2="13" stphdetun2="50" modalgo1="2" modalgo2="3" modalgo3="0" wavetype0="2" wavetype1="3" wavetype2="4" vol0="49" vol1="54" vol2="14" userwavefile0="usersample:samples/empty.wav" pan0="0" pan1="0" userwavefile1="usersample:samples/empty.wav" pan2="0" userwavefile2="usersample:samples/empty.wav" phoffset0="0" phoffset1="271" phoffset2="0" useWaveTable1="0" useWaveTable2="0" useWaveTable3="0" finel0="0">
+              <key/>
+            </tripleoscillator>
+          </instrument>
+          <eldata fcut="1064" ftype="4" fwet="1" fres="0.66000003">
+            <elvol dec="0.57200003" lspd_denominator="1" att="0" lshp="0" amt="1" x100="0" lpdel="0" ctlenvamt="0" sustain="0.34800002" lspd="0.091700003" userwavefile="" pdel="0" hold="0" lspd_syncmode="0" lspd_numerator="1" latt="0" rel="1.6160001" lamt="0"/>
+            <elcut dec="0.38499999" lspd_denominator="1" att="0" lshp="1" amt="1" x100="0" lpdel="0" ctlenvamt="0" sustain="0.36000001" lspd="0.76700002" userwavefile="" pdel="0" hold="0" lspd_syncmode="0" lspd_numerator="1" latt="0" rel="0.43000001" lamt="0"/>
+            <elres dec="0.49900001" lspd_denominator="1" att="0" lshp="1" amt="0" x100="0" lpdel="0" ctlenvamt="0" sustain="0.50099999" lspd="0.0099999998" userwavefile="" pdel="0" hold="0" lspd_syncmode="0" lspd_numerator="1" latt="0" rel="0.1" lamt="-0.0099999998"/>
+          </eldata>
+          <chordcreator chord-enabled="1" chordrange="1" chord="0"/>
+          <arpeggiator arptime_syncmode="0" arp="0" arpcycle="0" arpdir="0" arprepeats="1" arpmiss="0" arptime_numerator="1" arpmode="0" arprange="3" arpskip="0" arptime="102" arptime_denominator="1" arpgate="142" arp-enabled="0"/>
+          <midiport readable="1" writable="1" outputcontroller="0" inputchannel="0" fixedoutputnote="-1" outports="" outputchannel="1" outputprogram="1" inputcontroller="0" fixedoutputvelocity="-1" fixedinputvelocity="-1" basevelocity="63" inports=""/>
+          <fxchain enabled="1" numofeffects="4">
+            <effect name="lv2effect" autoquit_numerator="4" autoquit_syncmode="0" wet="1" autoquit="1" on="1" autoquit_denominator="4" gate="0">
+              <lv2controls>
+                <models size="0.69999999" output="0.5" mix="0.89999998" hf_damp="0.69999999"/>
+              </lv2controls>
+              <key>
+                <attribute name="uri" value="http://drobilla.net/plugins/mda/Ambience"/>
+              </key>
+            </effect>
+            <effect name="lv2effect" autoquit_numerator="4" autoquit_syncmode="0" wet="1" autoquit="1" on="0" autoquit_denominator="4" gate="0">
+              <lv2controls>
+                <models/>
+              </lv2controls>
+              <key>
+                <attribute name="uri" value="http://plugin.org.uk/swh-plugins/alaw"/>
+              </key>
+            </effect>
+            <effect name="lv2effect" autoquit_numerator="4" autoquit_syncmode="0" wet="1" autoquit="1" on="1" autoquit_denominator="4" gate="0">
+              <lv2controls>
+                <models size="64" bw="20" fb="0" damp="83" hpf="81" type="1" delay="24" time="63" lpf="85" unused_bw="0" unused_er="0"/>
+              </lv2controls>
+              <key>
+                <attribute name="uri" value="http://zynaddsubfx.sourceforge.net/fx#Reverb"/>
+              </key>
+            </effect>
+            <effect name="ladspaeffect" autoquit_numerator="4" autoquit_syncmode="0" wet="-0.31999999" autoquit="1" on="1" autoquit_denominator="4" gate="0">
+              <ladspacontrols ports="10" link="1">
+                <port00 link="1">
+                  <data id="8180297" value="141.42136" scale_type="log"/>
+                </port00>
+                <port01 data="0.096000001" link="1"/>
+                <port02 data="0" link="1"/>
+                <port03 link="1">
+                  <data id="3489632" value="620.79993" scale_type="log"/>
+                </port03>
+                <port04 data="0.94400001" link="1"/>
+                <port10>
+                  <data id="6136449" value="141.42136" scale_type="log"/>
+                </port10>
+                <port11 data="0.096000001"/>
+                <port12 data="0"/>
+                <port13>
+                  <data id="480382" value="620.79993" scale_type="log"/>
+                </port13>
+                <port14 data="0.94400001"/>
+              </ladspacontrols>
+              <key>
+                <attribute name="file" value="caps"/>
+                <attribute name="plugin" value="Spice"/>
+              </key>
+            </effect>
+          </fxchain>
+        </instrumenttrack>
+      </track>
+    </trackcontainer>
+    <track name="Automation track" solo="0" mutedBeforeSolo="0" muted="0" type="6">
+      <automationtrack/>
+      <automationclip name="Numerator" len="192" tens="1" prog="0" pos="0" mute="0"/>
+      <automationclip name="Denominator" len="192" tens="1" prog="0" pos="0" mute="0"/>
+      <automationclip name="Tempo" len="192" tens="1" prog="0" pos="0" mute="0"/>
+      <automationclip name="Master volume" len="192" tens="1" prog="0" pos="0" mute="0"/>
+      <automationclip name="Master pitch" len="192" tens="1" prog="0" pos="0" mute="0"/>
+      <automationclip name="Numerator" len="192" tens="1" prog="0" pos="0" mute="0"/>
+      <automationclip name="Denominator" len="192" tens="1" prog="0" pos="0" mute="0"/>
+      <automationclip name="Tempo" len="192" tens="1" prog="0" pos="0" mute="0"/>
+      <automationclip name="Master volume" len="192" tens="1" prog="0" pos="0" mute="0"/>
+      <automationclip name="Master pitch" len="192" tens="1" prog="0" pos="0" mute="0"/>
+    </track>
+    <mixer height="333" width="561" maximized="0" minimized="0" x="5" y="310" visible="1">
+      <mixerchannel name="Master" num="0" muted="0" volume="1" soloed="0">
+        <fxchain enabled="0" numofeffects="0"/>
+      </mixerchannel>
+    </mixer>
+    <ControllerRackView height="200" width="350" maximized="0" minimized="0" x="836" y="407" visible="1"/>
+    <pianoroll height="480" width="970" maximized="0" minimized="0" x="1" y="1" visible="0"/>
+    <automationeditor height="400" width="860" maximized="0" minimized="0" x="56" y="255" visible="0"/>
+    <projectnotes height="400" width="1025" maximized="0" minimized="0" x="1" y="1" visible="0"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Cantarell'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'FreeMono';"><br /></p></body></html>]]></projectnotes>
+    <timeline stopbehaviour="1" lp0pos="0" lpstate="0" lp1pos="192"/>
+    <controllers/>
+    <scales>
+      <scale description="empty">
+        <interval num="1" den="1"/>
+      </scale>
+      <scale description="empty">
+        <interval num="1" den="1"/>
+      </scale>
+      <scale description="empty">
+        <interval num="1" den="1"/>
+      </scale>
+      <scale description="empty">
+        <interval num="1" den="1"/>
+      </scale>
+      <scale description="empty">
+        <interval num="1" den="1"/>
+      </scale>
+      <scale description="empty">
+        <interval num="1" den="1"/>
+      </scale>
+      <scale description="empty">
+        <interval num="1" den="1"/>
+      </scale>
+      <scale description="empty">
+        <interval num="1" den="1"/>
+      </scale>
+      <scale description="empty">
+        <interval num="1" den="1"/>
+      </scale>
+      <scale description="empty">
+        <interval num="1" den="1"/>
+      </scale>
+    </scales>
+    <keymaps>
+      <keymap description="empty" middle_key="60" last_key="127" first_key="0" base_key="69" base_freq="440"/>
+      <keymap description="empty" middle_key="60" last_key="127" first_key="0" base_key="69" base_freq="440"/>
+      <keymap description="empty" middle_key="60" last_key="127" first_key="0" base_key="69" base_freq="440"/>
+      <keymap description="empty" middle_key="60" last_key="127" first_key="0" base_key="69" base_freq="440"/>
+      <keymap description="empty" middle_key="60" last_key="127" first_key="0" base_key="69" base_freq="440"/>
+      <keymap description="empty" middle_key="60" last_key="127" first_key="0" base_key="69" base_freq="440"/>
+      <keymap description="empty" middle_key="60" last_key="127" first_key="0" base_key="69" base_freq="440"/>
+      <keymap description="empty" middle_key="60" last_key="127" first_key="0" base_key="69" base_freq="440"/>
+      <keymap description="empty" middle_key="60" last_key="127" first_key="0" base_key="69" base_freq="440"/>
+      <keymap description="empty" middle_key="60" last_key="127" first_key="0" base_key="69" base_freq="440"/>
+    </keymaps>
+  </song>
+</lmms-project>

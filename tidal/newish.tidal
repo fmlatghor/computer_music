@@ -2,13 +2,13 @@
 -- SEE aleph.tidal, aleph-2.tidal
 
 
-d1 $n "c3 d3 a'min d'min" #stack [
-s "afrika*4"
+d1 $n "c3 d3 a'min d3" #stack [
+s "afrika*2"
 ]
--- #speed "0.6 0.5"
-#speed 0.5
+#speed ",0.5"
+-- #speed 0.5
 
-d2 $s "[glitch2*16, [~ ~ sd], hh*32]"
+d2 $s "[bd*8, [~ ~ noise2], hh*32]"
 
 
 
@@ -23,11 +23,11 @@ d2
 	#s "poly"
 	#octave 3
 	#sus 0.2
-	#gain 1.2
+	#gain 0.4
 
 d3 $chop 8 $s "butter" #lpf 4000 #speed 2
 -- #gain 1.3
 
-d4 $s "[dg ~]" #speed 0.5
+d4 $s "[dg ~]" #speed 0.5 #gain 1.3
 
 d5 $s "dg"
