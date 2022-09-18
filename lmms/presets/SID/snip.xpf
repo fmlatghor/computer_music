@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project creator="LMMS" version="21" creatorversion="1.3.0-alpha.1.144+g3d7ef9fa4" type="instrumenttracksettings">
+  <head/>
+  <instrumenttracksettings mutedBeforeSolo="0" muted="0" solo="0" type="0" name="SID">
+    <instrumenttrack fxch="2" basenote="69" vol="146.40001" scale="0" keymap="0" enabled="0" firstkey="0" pitchrange="2" pitch="-9" lastkey="127" usemasterpitch="1" range_import="1" enablecc="0" pan="0.78740156">
+      <midicontrollers cc31="0" cc83="0" cc42="0" cc49="0" cc103="0" cc70="0" cc88="0" cc29="0" cc60="0" cc72="0" cc63="0" cc105="0" cc115="0" cc126="0" cc122="0" cc4="0" cc77="0" cc67="0" cc76="0" cc37="0" cc11="0" cc52="0" cc120="0" cc123="0" cc34="0" cc111="0" cc112="0" cc22="0" cc51="0" cc80="0" cc45="0" cc38="0" cc0="0" cc86="0" cc17="0" cc10="0" cc74="0" cc23="0" cc93="0" cc50="0" cc64="0" cc13="0" cc3="0" cc113="0" cc15="0" cc59="0" cc79="0" cc8="0" cc18="0" cc1="0" cc96="0" cc21="0" cc7="0" cc20="0" cc85="0" cc104="0" cc25="0" cc82="0" cc24="0" cc43="0" cc58="0" cc44="0" cc40="0" cc84="0" cc121="0" cc26="0" cc98="0" cc90="0" cc94="0" cc12="0" cc33="0" cc92="0" cc71="0" cc101="0" cc118="0" cc28="0" cc16="0" cc100="0" cc2="0" cc32="0" cc55="0" cc65="0" cc27="0" cc57="0" cc62="0" cc107="0" cc41="0" cc125="0" cc109="0" cc124="0" cc47="0" cc9="0" cc36="0" cc69="0" cc108="0" cc54="0" cc19="0" cc89="0" cc73="0" cc114="0" cc102="0" cc97="0" cc46="0" cc30="0" cc61="0" cc81="0" cc95="0" cc6="0" cc87="0" cc5="0" cc119="0" cc99="0" cc66="0" cc75="0" cc116="0" cc56="0" cc48="0" cc35="0" cc91="0" cc68="0" cc117="0" cc127="0" cc110="0" cc78="0" cc39="0" cc53="0" cc106="0" cc14="0"/>
+      <instrument name="sid">
+        <sid pulsewidth1="2048" decay2="8" sustain0="15" attack0="8" ringmod1="0" filtered1="0" pulsewidth2="2048" waveform2="1" coarse2="0" sustain1="15" decay1="8" attack1="8" release0="8" sustain2="15" ringmod0="0" decay0="8" filterFC="1055" voice3Off="0" sync0="0" waveform1="1" filterResonance="15" test0="0" release2="8" sync1="0" volume="15" attack2="8" chipModel="1" coarse1="0" filterMode="2" waveform0="2" filtered2="0" release1="8" test2="0" test1="0" sync2="0" coarse0="0" pulsewidth0="2048" ringmod2="0" filtered0="0">
+          <key/>
+        </sid>
+      </instrument>
+      <eldata fcut="2688" ftype="6" fres="0.25" fwet="0">
+        <elvol lshp="2" latt="0.27600002" lspd_numerator="4" lamt="1" userwavefile="" dec="0.5" att="0" rel="0.1" x100="0" lpdel="0" sustain="0.5" hold="0.5" lspd_denominator="4" ctlenvamt="0" lspd_syncmode="0" pdel="0" lspd="0.133" amt="0"/>
+        <elcut lshp="0" latt="0" lspd_numerator="4" lamt="0" userwavefile="" dec="0.5" att="0" rel="0.1" x100="0" lpdel="0" sustain="0.5" hold="0.5" lspd_denominator="4" ctlenvamt="0" lspd_syncmode="0" pdel="0" lspd="0.1" amt="0"/>
+        <elres lshp="0" latt="0" lspd_numerator="4" lamt="0" userwavefile="" dec="0.5" att="0" rel="0.1" x100="0" lpdel="0" sustain="0.5" hold="0.5" lspd_denominator="4" ctlenvamt="0" lspd_syncmode="0" pdel="0" lspd="0.1" amt="0"/>
+      </eldata>
+      <chordcreator chord="0" chordrange="3" chord-enabled="0"/>
+      <arpeggiator arp-enabled="1" arpcycle="1" arptime_syncmode="0" arpgate="99" arprange="2" arptime_numerator="4" arpmode="0" arpdir="1" arprepeats="3" arpmiss="0" arptime_denominator="4" arptime="432" arp="0" arpskip="0"/>
+      <fxchain enabled="1" numofeffects="4">
+        <effect autoquit_denominator="4" on="1" autoquit_syncmode="0" autoquit="1" autoquit_numerator="4" wet="1" gate="0" name="lv2effect">
+          <lv2controls>
+            <models damp="83" time="63" unused_bw="0" unused_er="0" fb="0" bw="20" delay="24" hpf="5" lpf="85" type="1" size="64"/>
+          </lv2controls>
+          <key>
+            <attribute value="http://zynaddsubfx.sourceforge.net/fx#Reverb" name="uri"/>
+          </key>
+        </effect>
+        <effect autoquit_denominator="4" on="1" autoquit_syncmode="0" autoquit="1" autoquit_numerator="4" wet="1" gate="0" name="lv2effect">
+          <lv2controls>
+            <models lforand="0" fb="105" delay="25" lfofreq="38.399998" lrcross="127" lfotype="1" phase="9.1199999" depth="60" lfostereo="62"/>
+          </lv2controls>
+          <key>
+            <attribute value="http://zynaddsubfx.sourceforge.net/fx#AlienWah" name="uri"/>
+          </key>
+        </effect>
+        <effect autoquit_denominator="4" on="0" autoquit_syncmode="0" autoquit="1" autoquit_numerator="4" wet="1" gate="0" name="ladspaeffect">
+          <ladspacontrols ports="5">
+            <port00 data="1990"/>
+            <port01 data="33"/>
+            <port02 data="0"/>
+            <port03 data="0.0039999997"/>
+            <port04 data="1"/>
+          </ladspacontrols>
+          <key>
+            <attribute value="vynil_1905" name="file"/>
+            <attribute value="vynil" name="plugin"/>
+          </key>
+        </effect>
+        <effect autoquit_denominator="4" on="1" autoquit_syncmode="0" autoquit="1" autoquit_numerator="4" wet="1" gate="0" name="lv2effect">
+          <lv2controls>
+            <models lfo="1" on="1" stereo="180" level_in="1" overlap="0.75" voices="4" dry="0.5" amount="0.5" level_out="1" vphase="64">
+              <freq value="100" id="6555404" scale_type="log"/>
+              <freq2 value="5000" id="7001998" scale_type="log"/>
+              <min_delay value="5" id="3337685" scale_type="log"/>
+              <mod_depth value="6" id="625994" scale_type="log"/>
+              <mod_rate value="0.1" id="1535593" scale_type="log"/>
+              <q value="0.125" id="178958" scale_type="log"/>
+            </models>
+          </lv2controls>
+          <key>
+            <attribute value="http://calf.sourceforge.net/plugins/MultiChorus" name="uri"/>
+          </key>
+        </effect>
+      </fxchain>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>
